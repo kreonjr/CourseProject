@@ -1,37 +1,78 @@
-import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react"
+import "./App.css"
 import { firebase } from "./shared/firebaseConfig"
-import { getDatabase, ref, child, get } from "firebase/database";
+import { getDatabase, ref, onValue } from "firebase/database"
 
 function App() {
-
   const [data, setData] = useState({})
 
   useEffect(() => {
     const db = ref(getDatabase(firebase))
-    get(db).then((snapshot) => {
-      if (snapshot.exists()) {
-        setData(snapshot.val())
-      } else {
-        console.log("No data available");
+    const listener = onValue(
+      db,
+      (snapshot) => {
+        if (snapshot.exists()) {
+          setData(snapshot.val())
+        } else {
+          console.log("No data available")
+        }
+      },
+      (error) => {
+        console.error(error)
       }
-    }).catch((error) => {
-      console.error(error);
-    });
+    )
+
+    return () => {
+      listener()
+    }
   }, [])
 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h3>All Data</h3>
+        <h1>
+          UIUC CS410 Course Project Browser
+        </h1>
         <p>
-          {JSON.stringify(data)}
+          {Object.keys(data).map((key) => {
+            const category = data[key]
+            if (key === "Free Topics") {
+              return (
+                <div>
+                  <h2>{key}</h2>
+                  <ul>
+                    {Object.keys(category).map((subCatKey) => {
+                      return (
+                        <li>
+                          <h3>{subCatKey}</h3>
+                          <ul>
+                            {Object.keys(category[subCatKey]).map((itemKey) => {
+                              return <li>{category[subCatKey][itemKey].url}</li>
+                            })}
+                          </ul>
+                        </li>
+                      )
+                    })}
+                  </ul>
+                </div>
+              )
+            } else {
+              return (
+                <div>
+                  <h2>{key}</h2>
+                  <ul>
+                    {Object.keys(category).map((subCatKey) => {
+                      return <li>{category[subCatKey].url}</li>
+                    })}
+                  </ul>
+                </div>
+              )
+            }
+          })}
         </p>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
