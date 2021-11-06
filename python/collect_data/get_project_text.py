@@ -17,7 +17,7 @@ import os
 import re
 from unidecode import unidecode
 import pandas as pd
-from pdfreader import SimplePDFViewer
+import fitz
 import docx2txt
 from pptx import Presentation
 from bs4 import BeautifulSoup
@@ -51,8 +51,7 @@ def get_pdf_text(filepath):
     filetext = ""
     
     try:
-        pdfObject = open(filepath, "rb")
-        pdfViewer = SimplePDFViewer(pdfObject)
+        pdf_doc = fitz.open(filepath)
 
     # Handle incorrectly-formatted PDFs
     except Exception:
@@ -60,17 +59,12 @@ def get_pdf_text(filepath):
 
     # Pull text from readable PDFs
     else:
-        # Loop through PDF canvas items and collect lists of doc strings.
+        # Loop through PDF pages and collect text.
     
-        canvas_strings = []
-        
-        for canvas in pdfViewer:
-            canvas_strings.append(canvas.strings)
+        for pdf_page in pdf_doc:
+            filetext = filetext + pdf_page.get_text()
             
-        # Flatten string list and return.
-    
-        for string_list in canvas_strings:
-            filetext = filetext + "".join(string_list)
+        pdf_doc.close()
     
     return filetext
 
