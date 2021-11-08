@@ -1,7 +1,7 @@
 import nltk
 import pandas as pd
 from nltk.corpus import stopwords
-nltk.download('stopwords')
+#nltk.download('stopwords')
 from nltk.tokenize import wordpunct_tokenize
 
 df=pd.read_csv('project_text.tsv',sep='\t')
@@ -17,13 +17,13 @@ df['clean_textlen']=df['clean_text'].apply(len)
 stop_words=stopwords.words('english')
 df['clean_text1']=df['clean_text'].apply(lambda x: [i for i in x if i not in stop_words]) #removing stop words
 df['clean_textlen1']=df['clean_text1'].apply(len)
-df['clean_text2']=df['clean_text1'].apply(lambda x:list(dict.fromkeys(x))) #remove duplicates
-df['clean_textlen2']=df['clean_text2'].apply(len)
+# df['clean_text2']=df['clean_text1'].apply(lambda x:list(dict.fromkeys(x))) #remove duplicates
+# df['clean_textlen2']=df['clean_text2'].apply(len)
 
 #print(df)
 
-Newdf=df[['project_url','file_text','clean_text2']]
-Newdf.rename(columns={'clean_text2': 'clean_text'},inplace=True)
+Newdf=df[['project_url','file_text','clean_text1']]
+Newdf.rename(columns={'clean_text1': 'clean_text'},inplace=True)
 Newdf.set_index('project_url',inplace=True)
 #print(Newdf)
 Newdf.to_csv('project_clean_text.tsv', sep='\t')
