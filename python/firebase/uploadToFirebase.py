@@ -3,7 +3,7 @@ import json
 
 url = "https://us-central1-topic-thunder-a7103.cloudfunctions.net/updateDatabase"
 
-f = open('../firebase-output.json',)
+f = open('../text_mining/firebase-output.json',)
 data = json.load(f)
 payload = json.dumps(data)
 

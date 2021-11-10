@@ -44,6 +44,6 @@ print(Tdict)
 #     print(lineNew)
 #     print(words)
 
-fileout=open('frontend.json','w')
+fileout=open('firebase-output.json','w')
 json.dump(Tdict,fileout)
 fileout.close()

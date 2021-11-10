@@ -1,10 +1,11 @@
 import nltk
 import pandas as pd
 from nltk.corpus import stopwords
-#nltk.download('stopwords')
 from nltk.tokenize import wordpunct_tokenize
 
-df=pd.read_csv('project_text.tsv',sep='\t')
+nltk.download('stopwords')
+
+df=pd.read_csv('../collect_data/project_text.tsv',sep='\t')
 df['file_text']=df['file_text'].str.lower() #lowercase
 df['file_textlen']=df['file_text'].apply(len)
 df['file_text1']=df['file_text'].str.replace('[^\w\s]','') #removing punctuations
