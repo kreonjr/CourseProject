@@ -21,11 +21,13 @@ df['clean_textlen1']=df['clean_text1'].apply(len)
 ps=PorterStemmer()
 #ps.stem('clusters')
 df['clean_text2']=df['clean_text1'].apply(lambda x:[ps.stem(i) for i in x] ) #lemmatized
+df['clean_text3']=df['clean_text2'].apply(lambda x: [i for i in x if len(i) >3]) #removing any word that is less than 4 letters
+df['clean_textlen3']=df['clean_text3'].apply(len)
 
 #df
 
-Newdf=df[['project_url','file_text','clean_text2']]
-Newdf.rename(columns={'clean_text2': 'clean_text'},inplace=True)
+Newdf=df[['project_url','file_text','clean_text3']]
+Newdf.rename(columns={'clean_text3': 'clean_text'},inplace=True)
 Newdf.set_index('project_url',inplace=True)
 #print(Newdf)
 Newdf.to_csv('project_clean_text.tsv', sep='\t')
