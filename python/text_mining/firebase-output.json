@@ -2,55 +2,66 @@
   "Intelligent Browsing": [
     {
       "url": "https://github.com/97agupta/CourseProject",
-      "relevance:": "0.2"
+      "relevance:": "0.2",
+      "tags": ["ml", "text", "learning"]
     },
     {
       "url": "https://github.com/amyyq2/CourseProject",
-      "relevance:": "0.55"
+      "relevance:": "0.55",
+      "tags": ["mining", "text", "search"]
     },
     {
       "url": "https://github.com/andrewson3107/CourseProject",
-      "relevance:": "0.65"
+      "relevance:": "0.65",
+      "tags": ["text", "ml", "browser"]
     }
   ],
   "Intelligent Learning Platform": [
     {
         "url": "https://github.com/abot3/CourseProject",
-        "relevance:": "0.8"
+        "relevance:": "0.8",
+        "tags": ["ml", "learning","project"]
       }
   ],
   "System Extension": [
     {
         "url": "https://github.com/acscharf/CourseProject",
-        "relevance:": "0.5"
+        "relevance:": "0.5",
+        "tags": ["system", "tests", "ai"]
       },
       {
         "url": "https://github.com/alany9552/CourseProject",
-        "relevance:": "0.9"
+        "relevance:": "0.9",
+        "tags": ["software", "extension", "system"]
       }
   ],
   "Leaderboard Competition": [
     {
         "url": "https://github.com/adeetikaushal/CourseProject",
-        "relevance:": "0.35"
+        "relevance:": "0.35",
+        "tags": ["competition", "leaderboard"]
       },
       {
         "url": "https://github.com/anilkpalli/CourseProject",
-        "relevance:": "0.87"
+        "relevance:": "0.87",
+        "tags": ["software", "project","leaderboard"]
       }
   ],
   "Free Topics": {
     "Topic Mining": [{
         "url": "https://github.com/adp12/CourseProject",
-        "relevance:": "0.72"
+        "relevance:": "0.72",
+        "tags": ["mining", "ai", "ml"]
       },{
         "url": "https://github.com/AnirudhaPatil/CourseProject",
-        "relevance:": "0.89"
+        "relevance:": "0.89",
+        "tags": ["mining", "text", "topic"]
       }],
     
     "Sentiment Analysis": [{
         "url": "https://github.com/aishanipal/GithubCommentsSentimentAnalysis",
-        "relevance:": "0.39"
+        "relevance:": "0.39",
+        "tags": ["analysis", "opinion", "sentiment"]
       }]
   }
 }
