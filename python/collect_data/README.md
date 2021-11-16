@@ -2,7 +2,25 @@
 
 ## Overview
 
-This is a skeletal ReadMe for the scripts which harvest text from document files of past CS 410 projects. That text will be used for further analysis.
+These are the scripts which harvest text from document files of past CS 410 projects. That text will be used for further analysis.
+
+## Requirements
+
+Git must be installed for `clone_forks.py` to work. This project used git version 2.17.1.windows.2.
+
+The scripts were tested and run in an Anaconda Python 3.8.8 virtual environment.
+
+Python packages used:
+* beautifulsoup4 4.10.0
+* datetime 4.3
+* docx2txt 0.8
+* pymupdf 1.19.1
+* fitz 0.0.1.dev2
+* GitPython 3.1.24
+* markdown 3.3.4
+* pandas 1.2.4
+* python-pptx 0.6.21
+* unidecode 1.3.2* 
 
 ## Scripts
 
@@ -29,6 +47,8 @@ python ./clone_forks.py --forksurl "https://api.github.com/repos/CS410Assignment
 ### `get_project_text.py`
 
 Given a `repo_forks.csv` file (see above) and a directory of cloned repositories, harvests text from document files at the top level of each repository. Processes PDFs, Word documents, Powerpoint documents, and markdown files.
+
+The script converts sequences of whitespace characters into single space characters. The script also converts non-ASCII Unicode characters to their closest ASCII equivalents.
 
 #### Arguments
 * `--projectlist`: CSV file containing information about the cloned CS 410 projects. Helps associate project URLs with harvested text.
