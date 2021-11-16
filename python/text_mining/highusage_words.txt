@@ -21,3 +21,10 @@ download
 file
 code
 install
+coursera
+microsoft
+com
+web
+python
+www
+java
