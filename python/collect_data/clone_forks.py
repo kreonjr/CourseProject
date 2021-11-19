@@ -60,7 +60,8 @@ def find_forks(forks_url):
             "path": fork["full_name"],
             "pushed_at": datetime.strptime(fork["pushed_at"], "%Y-%m-%dT%H:%M:%SZ"),
             "ssh_url": fork["ssh_url"],
-            "project_url": fork["svn_url"]
+            "project_url": fork["svn_url"],
+            "default_branch": fork["default_branch"]
             }
         
         forks_list.append(fork_dict)
