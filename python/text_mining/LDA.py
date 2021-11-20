@@ -72,4 +72,20 @@ Newdf=df[['project_url','file_text','clean_text','Topics3']]
 Newdf.rename(columns={'Topics3': 'Topics'},inplace=True)
 Newdf.set_index('project_url',inplace=True)
 #print(Newdf)
-Newdf.to_csv('AlgOutput.tsv', sep='\t') 
+Newdf.to_csv('AlgOutput.tsv', sep='\t')
+
+print(lda_model.log_perplexity(doc_term_matrix))
+
+# Below stuff could be important from a evaluating the model standpoint
+
+# from gensim.models.coherencemodel import CoherenceModel
+# A=CoherenceModel(model=lda_model,texts=megalist,dictionary=dictionary,coherence='c_v')
+# B=A.get_coherence()
+# print(B)
+#
+# #!pip install pyLDAvis
+# import pyLDAvis
+# import pyLDAvis.gensim_models
+# pyLDAvis.enable_notebook()
+# vis = pyLDAvis.gensim_models.prepare(lda_model, corpus, id2word)
+# vis
