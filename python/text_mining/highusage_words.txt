@@ -44,3 +44,12 @@ captain
 would
 could
 should
+git
+pip
+make
+update
+version
+command
+new
+list
+name
