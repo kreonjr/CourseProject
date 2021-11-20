@@ -2,9 +2,10 @@ import nltk
 import pandas as pd
 from nltk.corpus import stopwords
 #nltk.download('stopwords')
+#from nltk.tokenize import sent_tokenize
 from nltk.tokenize import wordpunct_tokenize
-#from nltk.stem import WordNetLemmatizer
-from nltk.stem import PorterStemmer
+from nltk.stem import WordNetLemmatizer
+#from nltk.stem import PorterStemmer
 
 #pulling in list of high usage words
 highusage_words=[]
@@ -33,14 +34,17 @@ df['clean_textlen1']=df['clean_text1'].apply(len)
 df['clean_text2']=df['clean_text1'].apply(lambda x: [i for i in x if i not in highusage_words]) #removing high usage words
 df['clean_textlen2']=df['clean_text2'].apply(len)
 
-ps=PorterStemmer()
-#ps.stem('clusters')
-df['clean_text3']=df['clean_text2'].apply(lambda x:[ps.stem(i) for i in x] ) #stemming
+df['clean_text3']=df['clean_text2'].apply(lambda x: [i for i in x if len(i) >2]) #removing any word that is less than 3 letters
+df['clean_textlen3']=df['clean_text3'].apply(len)
+
+lemmatizer = WordNetLemmatizer()
+# lemmatizer.lemmatize("clustering")
+df['clean_text4']=df['clean_text3'].apply(lambda x:[lemmatizer.lemmatize(i) for i in x] ) #lemmatize
 
 #df
 
-Newdf=df[['project_url','file_text','clean_text3']]
-Newdf.rename(columns={'clean_text3': 'clean_text'},inplace=True)
+Newdf=df[['project_url','file_text','clean_text4']]
+Newdf.rename(columns={'clean_text4': 'clean_text'},inplace=True)
 Newdf.set_index('project_url',inplace=True)
 #print(Newdf)
 Newdf.to_csv('project_clean_text.tsv', sep='\t')
@@ -56,11 +60,10 @@ Newdf.to_csv('project_clean_text.tsv', sep='\t')
 # words
 # df['clean_text2']=df['clean_text1'].apply(lambda x: [i for i in x if i not in words])
 # df['clean_textlen2']=df['clean_text2'].apply(len)
-# lemmatizer = WordNetLemmatizer()
-# lemmatizer.lemmatize("clustering")
-# df['clean_text4']=df['clean_text3'].apply(lambda x: [i for i in x if len(i) >3]) #removing any word that is less than 4 letters
-# df['clean_textlen3']=df['clean_text3'].apply(len)
-# df['clean_text2']=df['clean_text1'].apply(lambda x:[lemmatizer.lemmatize(i) for i in x] ) #removing stop words
+
+#ps=PorterStemmer()
+#ps.stem('clusters')
+#df['clean_text3']=df['clean_text2'].apply(lambda x:[ps.stem(i) for i in x] ) #stemming
 # df['clean_textlen2']=df['clean_text2'].apply(len)
 # df['new']=df['file_text2'].apply(lambda x:nltk.pos_tag(x))
 # df
