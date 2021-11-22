@@ -1,67 +1,8362 @@
 {
-  "Intelligent Browsing": [
-    {
-      "url": "https://github.com/97agupta/CourseProject",
-      "relevance:": "0.2",
-      "tags": ["ml", "text", "learning"]
-    },
-    {
-      "url": "https://github.com/amyyq2/CourseProject",
-      "relevance:": "0.55",
-      "tags": ["mining", "text", "search"]
-    },
-    {
-      "url": "https://github.com/andrewson3107/CourseProject",
-      "relevance:": "0.65",
-      "tags": ["text", "ml", "browser"]
-    }
-  ],
-  "Intelligent Learning Platform": [
-    {
-        "url": "https://github.com/abot3/CourseProject",
-        "relevance:": "0.8",
-        "tags": ["ml", "learning","project"]
-      }
-  ],
-  "System Extension": [
-    {
-        "url": "https://github.com/acscharf/CourseProject",
-        "relevance:": "0.5",
-        "tags": ["system", "tests", "ai"]
-      },
-      {
-        "url": "https://github.com/alany9552/CourseProject",
-        "relevance:": "0.9",
-        "tags": ["software", "extension", "system"]
-      }
-  ],
-  "Leaderboard Competition": [
-    {
-        "url": "https://github.com/adeetikaushal/CourseProject",
-        "relevance:": "0.35",
-        "tags": ["competition", "leaderboard"]
-      },
-      {
-        "url": "https://github.com/anilkpalli/CourseProject",
-        "relevance:": "0.87",
-        "tags": ["software", "project","leaderboard"]
-      }
-  ],
-  "Free Topics": {
-    "Topic Mining": [{
-        "url": "https://github.com/adp12/CourseProject",
-        "relevance:": "0.72",
-        "tags": ["mining", "ai", "ml"]
-      },{
-        "url": "https://github.com/AnirudhaPatil/CourseProject",
-        "relevance:": "0.89",
-        "tags": ["mining", "text", "topic"]
-      }],
-    
-    "Sentiment Analysis": [{
-        "url": "https://github.com/aishanipal/GithubCommentsSentimentAnalysis",
-        "relevance:": "0.39",
-        "tags": ["analysis", "opinion", "sentiment"]
-      }]
+  "0": {
+    "url": "https://github.com/17JamesH/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "1": {
+    "url": "https://github.com/97agupta/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "2": {
+    "url": "https://github.com/AShipway/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "3": {
+    "url": "https://github.com/AlexZurski/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "4": {
+    "url": "https://github.com/AnantSharma18/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "5": {
+    "url": "https://github.com/AnirudhaPatil/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "6": {
+    "url": "https://github.com/Anthony-S4/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "7": {
+    "url": "https://github.com/Arnavj3/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "8": {
+    "url": "https://github.com/Asciotti/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "9": {
+    "url": "https://github.com/Ben-Sutter/IntelligentBrowsingPaulBen",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "10": {
+    "url": "https://github.com/BhuvaneswariPeriasamy/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "11": {
+    "url": "https://github.com/BillyZhaohengLi/PLSAprior",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "12": {
+    "url": "https://github.com/CapnDanger/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "13": {
+    "url": "https://github.com/Clara9/LARA_Reproduce_410",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "14": {
+    "url": "https://github.com/CoreyShih/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "15": {
+    "url": "https://github.com/Diegoma89/CS410_CourseProject_DM",
+    "tags": [
+      "model",
+      "collection",
+      "theme",
+      "faculty",
+      "url",
+      "text",
+      "topic",
+      "cluster",
+      "mining",
+      "common",
+      "set",
+      "mixture",
+      "word",
+      "document",
+      "directory"
+    ]
+  },
+  "16": {
+    "url": "https://github.com/DiptamGit/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "17": {
+    "url": "https://github.com/DrLucky2/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "18": {
+    "url": "https://github.com/Ehaly/CourseProject",
+    "tags": [
+      "model",
+      "collection",
+      "theme",
+      "faculty",
+      "url",
+      "text",
+      "topic",
+      "cluster",
+      "mining",
+      "common",
+      "set",
+      "mixture",
+      "word",
+      "document",
+      "directory"
+    ]
+  },
+  "19": {
+    "url": "https://github.com/ElizWang/CourseProject",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "20": {
+    "url": "https://github.com/EsportsNoEyes/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "21": {
+    "url": "https://github.com/Finkoy/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "22": {
+    "url": "https://github.com/Giang-nguyen/CourseProject",
+    "tags": [
+      "search",
+      "app",
+      "dataset",
+      "query",
+      "job",
+      "result",
+      "topic",
+      "text",
+      "document",
+      "model",
+      "method",
+      "time",
+      "elasticsearch",
+      "engine",
+      "hour"
+    ]
+  },
+  "23": {
+    "url": "https://github.com/GiuseppeIII/CS410CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "24": {
+    "url": "https://github.com/GregHarrison/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "25": {
+    "url": "https://github.com/Guanhuali2/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "26": {
+    "url": "https://github.com/HaritaReddy/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "27": {
+    "url": "https://github.com/Hejingze/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "28": {
+    "url": "https://github.com/IEnjoyEatingCookies/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "29": {
+    "url": "https://github.com/IanG89998/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "30": {
+    "url": "https://github.com/JackDeDobb/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "31": {
+    "url": "https://github.com/Jagaskak/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "32": {
+    "url": "https://github.com/JamesFCoffey/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "33": {
+    "url": "https://github.com/JiajunWuEdu/CourseProject",
+    "tags": [
+      "stock",
+      "sentiment",
+      "model",
+      "rating",
+      "news",
+      "text",
+      "analysis",
+      "system",
+      "market",
+      "classification",
+      "classifier",
+      "twitter",
+      "dataset",
+      "analyst",
+      "set"
+    ]
+  },
+  "34": {
+    "url": "https://github.com/Jiaqicao257/team_aplus_project",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "35": {
+    "url": "https://github.com/JiningSong/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "36": {
+    "url": "https://github.com/Jon-LaFlamme/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "37": {
+    "url": "https://github.com/Jonathan-Birkey/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "38": {
+    "url": "https://github.com/JosephineFalso/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "39": {
+    "url": "https://github.com/Junting98/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "40": {
+    "url": "https://github.com/Kartikp2/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "41": {
+    "url": "https://github.com/KefanChen0719/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "42": {
+    "url": "https://github.com/LahariP2/Movies4U",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "43": {
+    "url": "https://github.com/LeoGJC/Movie-Sentiment-Analysis-Engine",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "44": {
+    "url": "https://github.com/LifeBringer/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "45": {
+    "url": "https://github.com/LongN22/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "46": {
+    "url": "https://github.com/Ludy11xc/CS-410-CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "47": {
+    "url": "https://github.com/LunaMystic/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "48": {
+    "url": "https://github.com/MLwithSandy/CourseProject",
+    "tags": [
+      "stock",
+      "sentiment",
+      "model",
+      "rating",
+      "news",
+      "text",
+      "analysis",
+      "system",
+      "market",
+      "classification",
+      "classifier",
+      "twitter",
+      "dataset",
+      "analyst",
+      "set"
+    ]
+  },
+  "49": {
+    "url": "https://github.com/MM026184/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "50": {
+    "url": "https://github.com/MadaoIsMyBrother/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "51": {
+    "url": "https://github.com/Madokami/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "52": {
+    "url": "https://github.com/MinsooKim15/CS410_QuestionAnswering",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "53": {
+    "url": "https://github.com/NK10/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "54": {
+    "url": "https://github.com/NikhilDIL/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "55": {
+    "url": "https://github.com/PSUlion16/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "56": {
+    "url": "https://github.com/Parkkeo1/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "57": {
+    "url": "https://github.com/Pradoshks/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "58": {
+    "url": "https://github.com/R2Lin/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "59": {
+    "url": "https://github.com/RBmint/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "60": {
+    "url": "https://github.com/RahulSinghalChicago/CourseProject",
+    "tags": [
+      "search",
+      "app",
+      "dataset",
+      "query",
+      "job",
+      "result",
+      "topic",
+      "text",
+      "document",
+      "model",
+      "method",
+      "time",
+      "elasticsearch",
+      "engine",
+      "hour"
+    ]
+  },
+  "61": {
+    "url": "https://github.com/Redstone-WB/CS410-guava",
+    "tags": [
+      "search",
+      "app",
+      "dataset",
+      "query",
+      "job",
+      "result",
+      "topic",
+      "text",
+      "document",
+      "model",
+      "method",
+      "time",
+      "elasticsearch",
+      "engine",
+      "hour"
+    ]
+  },
+  "62": {
+    "url": "https://github.com/Reynold-Chan/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "63": {
+    "url": "https://github.com/RyoTakaki/CS410_TIS_CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "64": {
+    "url": "https://github.com/SathishRama/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "65": {
+    "url": "https://github.com/Scott-Huang/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "66": {
+    "url": "https://github.com/Sembian2-CS410Fall2020/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "67": {
+    "url": "https://github.com/ShaleenMehrotra/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "68": {
+    "url": "https://github.com/Shivang44/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "69": {
+    "url": "https://github.com/ShyamShah11/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "70": {
+    "url": "https://github.com/Sinba7/CourseProject",
+    "tags": [
+      "stock",
+      "sentiment",
+      "model",
+      "rating",
+      "news",
+      "text",
+      "analysis",
+      "system",
+      "market",
+      "classification",
+      "classifier",
+      "twitter",
+      "dataset",
+      "analyst",
+      "set"
+    ]
+  },
+  "71": {
+    "url": "https://github.com/SphtKr/MeTAPyquod",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "72": {
+    "url": "https://github.com/Sushanta77/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "73": {
+    "url": "https://github.com/TakumiDawn/Congress-Financial-Disclosures-Sentiment-Analysis-Project",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "74": {
+    "url": "https://github.com/TomTJarosz/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "75": {
+    "url": "https://github.com/VAkarsh20/CS410CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "76": {
+    "url": "https://github.com/VisualPracticeRank/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "77": {
+    "url": "https://github.com/VoidGoat/CourseProject-CS-410",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "78": {
+    "url": "https://github.com/Wenfan1993/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "79": {
+    "url": "https://github.com/Xinpeij/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "80": {
+    "url": "https://github.com/Xinyihe123/LARA",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "81": {
+    "url": "https://github.com/XueyangLiOSU/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "82": {
+    "url": "https://github.com/ZacharyOldham/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "83": {
+    "url": "https://github.com/Zetmas/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "84": {
+    "url": "https://github.com/ZhengyuLi97/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "85": {
+    "url": "https://github.com/abot3/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "86": {
+    "url": "https://github.com/acscharf/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "87": {
+    "url": "https://github.com/adeetikaushal/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "88": {
+    "url": "https://github.com/adp12/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "89": {
+    "url": "https://github.com/aishanipal/GithubCommentsSentimentAnalysis",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "90": {
+    "url": "https://github.com/akashrpatel621/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "91": {
+    "url": "https://github.com/akhilbhamidipati5/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "92": {
+    "url": "https://github.com/alany9552/CourseProject",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "93": {
+    "url": "https://github.com/alex-pi/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "94": {
+    "url": "https://github.com/alex6499cat/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "95": {
+    "url": "https://github.com/amelia2801/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "96": {
+    "url": "https://github.com/amyth18/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "97": {
+    "url": "https://github.com/amyyq2/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "98": {
+    "url": "https://github.com/andreev-io/Documentation-Search-with-Elastic-Search-and-GENRE",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "99": {
+    "url": "https://github.com/andrewson3107/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "100": {
+    "url": "https://github.com/anilkpalli/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "101": {
+    "url": "https://github.com/antonioalfonso/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "102": {
+    "url": "https://github.com/anumehaagrawal/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "103": {
+    "url": "https://github.com/ardelysti/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "104": {
+    "url": "https://github.com/arhamahmed/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "105": {
+    "url": "https://github.com/armhoeft/CS410Fall2020-CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "106": {
+    "url": "https://github.com/aruther11/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "107": {
+    "url": "https://github.com/arvindsankar/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "108": {
+    "url": "https://github.com/asadiku/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "109": {
+    "url": "https://github.com/ashpradhan01123/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "110": {
+    "url": "https://github.com/assalupitudor/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "111": {
+    "url": "https://github.com/avinashnathan1/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "112": {
+    "url": "https://github.com/awang288/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "113": {
+    "url": "https://github.com/azk0019/CourseProject",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "114": {
+    "url": "https://github.com/bachman5/CS410-BiasDetector",
+    "tags": [
+      "stock",
+      "sentiment",
+      "model",
+      "rating",
+      "news",
+      "text",
+      "analysis",
+      "system",
+      "market",
+      "classification",
+      "classifier",
+      "twitter",
+      "dataset",
+      "analyst",
+      "set"
+    ]
+  },
+  "115": {
+    "url": "https://github.com/bashirpartovi/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "116": {
+    "url": "https://github.com/bayarra/spacy.lang.mn",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "117": {
+    "url": "https://github.com/bearnomore/CourseProject",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "118": {
+    "url": "https://github.com/benpcorn/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "119": {
+    "url": "https://github.com/bhullar5/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "120": {
+    "url": "https://github.com/bids3/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "121": {
+    "url": "https://github.com/blake-wright/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "122": {
+    "url": "https://github.com/bllguo/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "123": {
+    "url": "https://github.com/bo8b/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "124": {
+    "url": "https://github.com/bojiang3/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "125": {
+    "url": "https://github.com/braydenturner/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "126": {
+    "url": "https://github.com/bzhao10/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "127": {
+    "url": "https://github.com/ccasey645/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "128": {
+    "url": "https://github.com/cds95/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "129": {
+    "url": "https://github.com/cf16-uiuc/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "130": {
+    "url": "https://github.com/chaarud/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "131": {
+    "url": "https://github.com/chanwoo321/CourseProject",
+    "tags": [
+      "model",
+      "collection",
+      "theme",
+      "faculty",
+      "url",
+      "text",
+      "topic",
+      "cluster",
+      "mining",
+      "common",
+      "set",
+      "mixture",
+      "word",
+      "document",
+      "directory"
+    ]
+  },
+  "132": {
+    "url": "https://github.com/chask8ng/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "133": {
+    "url": "https://github.com/chengbo322/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "134": {
+    "url": "https://github.com/chenjundongted/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "135": {
+    "url": "https://github.com/chenyuzhao98/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "136": {
+    "url": "https://github.com/chiragcshetty/CourseProject",
+    "tags": [
+      "model",
+      "collection",
+      "theme",
+      "faculty",
+      "url",
+      "text",
+      "topic",
+      "cluster",
+      "mining",
+      "common",
+      "set",
+      "mixture",
+      "word",
+      "document",
+      "directory"
+    ]
+  },
+  "137": {
+    "url": "https://github.com/chriistinahu/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "138": {
+    "url": "https://github.com/chuanyueshen/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "139": {
+    "url": "https://github.com/chungfaith1/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "140": {
+    "url": "https://github.com/clairebrekken/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "141": {
+    "url": "https://github.com/cnj3/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "142": {
+    "url": "https://github.com/codylw2/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "143": {
+    "url": "https://github.com/coronatsai/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "144": {
+    "url": "https://github.com/cotcat/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "145": {
+    "url": "https://github.com/czhu99/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "146": {
+    "url": "https://github.com/dabadabadoue/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "147": {
+    "url": "https://github.com/daisy91530/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "148": {
+    "url": "https://github.com/danco14/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "149": {
+    "url": "https://github.com/dani-richmond/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "150": {
+    "url": "https://github.com/darrenmuliawan/CourseProject",
+    "tags": [
+      "search",
+      "app",
+      "dataset",
+      "query",
+      "job",
+      "result",
+      "topic",
+      "text",
+      "document",
+      "model",
+      "method",
+      "time",
+      "elasticsearch",
+      "engine",
+      "hour"
+    ]
+  },
+  "151": {
+    "url": "https://github.com/dattatreya303/CourseProject",
+    "tags": [
+      "search",
+      "app",
+      "dataset",
+      "query",
+      "job",
+      "result",
+      "topic",
+      "text",
+      "document",
+      "model",
+      "method",
+      "time",
+      "elasticsearch",
+      "engine",
+      "hour"
+    ]
+  },
+  "152": {
+    "url": "https://github.com/davegii/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "153": {
+    "url": "https://github.com/davidmg4/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "154": {
+    "url": "https://github.com/davidtt2/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "155": {
+    "url": "https://github.com/deep-finders/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "156": {
+    "url": "https://github.com/devinsburke/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "157": {
+    "url": "https://github.com/diane630/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "158": {
+    "url": "https://github.com/difangu/CourseProject",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "159": {
+    "url": "https://github.com/dilipis/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "160": {
+    "url": "https://github.com/dinghuaminghui/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "161": {
+    "url": "https://github.com/dixonliang/CS410CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "162": {
+    "url": "https://github.com/dkrovi2/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "163": {
+    "url": "https://github.com/duadua9/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "164": {
+    "url": "https://github.com/dvillevald/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "165": {
+    "url": "https://github.com/dyang5200/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "166": {
+    "url": "https://github.com/eckels/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "167": {
+    "url": "https://github.com/edhadgu/r-soccer-Analyzer",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "168": {
+    "url": "https://github.com/emeraldrains/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "169": {
+    "url": "https://github.com/enaena633/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "170": {
+    "url": "https://github.com/erikl2/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "171": {
+    "url": "https://github.com/everbrightw/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "172": {
+    "url": "https://github.com/falobba2/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "173": {
+    "url": "https://github.com/garciadiazjaime/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "174": {
+    "url": "https://github.com/gdeb2/CourseProject",
+    "tags": [
+      "search",
+      "app",
+      "dataset",
+      "query",
+      "job",
+      "result",
+      "topic",
+      "text",
+      "document",
+      "model",
+      "method",
+      "time",
+      "elasticsearch",
+      "engine",
+      "hour"
+    ]
+  },
+  "175": {
+    "url": "https://github.com/genggeng88/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "176": {
+    "url": "https://github.com/georgezhang2232/CourseProject",
+    "tags": [
+      "search",
+      "app",
+      "dataset",
+      "query",
+      "job",
+      "result",
+      "topic",
+      "text",
+      "document",
+      "model",
+      "method",
+      "time",
+      "elasticsearch",
+      "engine",
+      "hour"
+    ]
+  },
+  "177": {
+    "url": "https://github.com/gmotzespina/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "178": {
+    "url": "https://github.com/gnsandeep/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "179": {
+    "url": "https://github.com/godsell3/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "180": {
+    "url": "https://github.com/gotplt/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "181": {
+    "url": "https://github.com/gsklyr/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "182": {
+    "url": "https://github.com/guoyuhan717/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "183": {
+    "url": "https://github.com/hc2111/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "184": {
+    "url": "https://github.com/henryg3/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "185": {
+    "url": "https://github.com/hernang2/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "186": {
+    "url": "https://github.com/hetadesai26/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "187": {
+    "url": "https://github.com/houyuan2/CS410CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "188": {
+    "url": "https://github.com/hpandeycodeit/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "189": {
+    "url": "https://github.com/hungn2/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "190": {
+    "url": "https://github.com/icyguy64/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "191": {
+    "url": "https://github.com/iluvcomputers/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "192": {
+    "url": "https://github.com/j5un/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "193": {
+    "url": "https://github.com/jacobvp2/CourseProject",
+    "tags": [
+      "model",
+      "collection",
+      "theme",
+      "faculty",
+      "url",
+      "text",
+      "topic",
+      "cluster",
+      "mining",
+      "common",
+      "set",
+      "mixture",
+      "word",
+      "document",
+      "directory"
+    ]
+  },
+  "194": {
+    "url": "https://github.com/jaeroong/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "195": {
+    "url": "https://github.com/jahaas/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "196": {
+    "url": "https://github.com/jairmorais/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "197": {
+    "url": "https://github.com/jaskirat-singh-pahwa/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "198": {
+    "url": "https://github.com/jasonzhang929/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "199": {
+    "url": "https://github.com/jasonzjc/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "200": {
+    "url": "https://github.com/jennz0/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "201": {
+    "url": "https://github.com/jessehenn/CourseProject",
+    "tags": [
+      "search",
+      "app",
+      "dataset",
+      "query",
+      "job",
+      "result",
+      "topic",
+      "text",
+      "document",
+      "model",
+      "method",
+      "time",
+      "elasticsearch",
+      "engine",
+      "hour"
+    ]
+  },
+  "202": {
+    "url": "https://github.com/jessicahuang523/CourseProject",
+    "tags": [
+      "model",
+      "collection",
+      "theme",
+      "faculty",
+      "url",
+      "text",
+      "topic",
+      "cluster",
+      "mining",
+      "common",
+      "set",
+      "mixture",
+      "word",
+      "document",
+      "directory"
+    ]
+  },
+  "203": {
+    "url": "https://github.com/jhinukb/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "204": {
+    "url": "https://github.com/jialen2/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "205": {
+    "url": "https://github.com/jiezheng5/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "206": {
+    "url": "https://github.com/jinningli/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "207": {
+    "url": "https://github.com/jkghub/CourseProject",
+    "tags": [
+      "model",
+      "collection",
+      "theme",
+      "faculty",
+      "url",
+      "text",
+      "topic",
+      "cluster",
+      "mining",
+      "common",
+      "set",
+      "mixture",
+      "word",
+      "document",
+      "directory"
+    ]
+  },
+  "208": {
+    "url": "https://github.com/joel515/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "209": {
+    "url": "https://github.com/john-james-sf/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "210": {
+    "url": "https://github.com/johnkz2/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "211": {
+    "url": "https://github.com/jpjun8/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "212": {
+    "url": "https://github.com/jstephens/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "213": {
+    "url": "https://github.com/juan4bit/CourseProject",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "214": {
+    "url": "https://github.com/justynlao/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "215": {
+    "url": "https://github.com/k72564/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "216": {
+    "url": "https://github.com/kaf4/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "217": {
+    "url": "https://github.com/kaipak/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "218": {
+    "url": "https://github.com/kaiyuandou/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "219": {
+    "url": "https://github.com/karthik63/ChromeEntity",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "220": {
+    "url": "https://github.com/kb-rahul/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "221": {
+    "url": "https://github.com/kcen14/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "222": {
+    "url": "https://github.com/kellycosgrove/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "223": {
+    "url": "https://github.com/khylecalimlim/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "224": {
+    "url": "https://github.com/kikibean/CourseProject",
+    "tags": [
+      "stock",
+      "sentiment",
+      "model",
+      "rating",
+      "news",
+      "text",
+      "analysis",
+      "system",
+      "market",
+      "classification",
+      "classifier",
+      "twitter",
+      "dataset",
+      "analyst",
+      "set"
+    ]
+  },
+  "225": {
+    "url": "https://github.com/kn13-kiran/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "226": {
+    "url": "https://github.com/kplhung/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "227": {
+    "url": "https://github.com/kreonjr/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "228": {
+    "url": "https://github.com/kristina2018/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "229": {
+    "url": "https://github.com/li-951/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "230": {
+    "url": "https://github.com/liam-p-23/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "231": {
+    "url": "https://github.com/lipingxie/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "232": {
+    "url": "https://github.com/liuyuxiang512/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "233": {
+    "url": "https://github.com/losaohan/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "234": {
+    "url": "https://github.com/lowelltyner/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "235": {
+    "url": "https://github.com/luoxix/CourseProject",
+    "tags": [
+      "model",
+      "collection",
+      "theme",
+      "faculty",
+      "url",
+      "text",
+      "topic",
+      "cluster",
+      "mining",
+      "common",
+      "set",
+      "mixture",
+      "word",
+      "document",
+      "directory"
+    ]
+  },
+  "236": {
+    "url": "https://github.com/lynn0032/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "237": {
+    "url": "https://github.com/maaparna/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "238": {
+    "url": "https://github.com/maatjes2/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "239": {
+    "url": "https://github.com/machilusZ/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "240": {
+    "url": "https://github.com/mackteng/CourseProject",
+    "tags": [
+      "model",
+      "collection",
+      "theme",
+      "faculty",
+      "url",
+      "text",
+      "topic",
+      "cluster",
+      "mining",
+      "common",
+      "set",
+      "mixture",
+      "word",
+      "document",
+      "directory"
+    ]
+  },
+  "241": {
+    "url": "https://github.com/madstommy/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "242": {
+    "url": "https://github.com/manuv3/cs410-project",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "243": {
+    "url": "https://github.com/mariahuipe/CourseProject",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "244": {
+    "url": "https://github.com/masamip2/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "245": {
+    "url": "https://github.com/matthewmechtly/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "246": {
+    "url": "https://github.com/mattzeeee/TextInformationSystemsCourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "247": {
+    "url": "https://github.com/mccho3/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "248": {
+    "url": "https://github.com/mebespencer/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "249": {
+    "url": "https://github.com/mersaults/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "250": {
+    "url": "https://github.com/mihiryerande/CS-410-Fall-2020-Anime-Text-Analytics",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "251": {
+    "url": "https://github.com/mikepigott/TextInformationSystemsCourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "252": {
+    "url": "https://github.com/mikhaidn/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "253": {
+    "url": "https://github.com/milan-saroj/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "254": {
+    "url": "https://github.com/mkhanal2/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "255": {
+    "url": "https://github.com/mlbernardoni/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "256": {
+    "url": "https://github.com/mnhuoi/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "257": {
+    "url": "https://github.com/mpolsgrove/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "258": {
+    "url": "https://github.com/mrcstan/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "259": {
+    "url": "https://github.com/mrente5/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "260": {
+    "url": "https://github.com/mrprice3/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "261": {
+    "url": "https://github.com/mshaw0707/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "262": {
+    "url": "https://github.com/mthatt/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "263": {
+    "url": "https://github.com/muneshb/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "264": {
+    "url": "https://github.com/myusername-2/CourseProject",
+    "tags": [
+      "search",
+      "app",
+      "dataset",
+      "query",
+      "job",
+      "result",
+      "topic",
+      "text",
+      "document",
+      "model",
+      "method",
+      "time",
+      "elasticsearch",
+      "engine",
+      "hour"
+    ]
+  },
+  "265": {
+    "url": "https://github.com/mzhai20/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "266": {
+    "url": "https://github.com/n3a9/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "267": {
+    "url": "https://github.com/nadiam2/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "268": {
+    "url": "https://github.com/nadiawoodninja/CourseProject",
+    "tags": [
+      "search",
+      "app",
+      "dataset",
+      "query",
+      "job",
+      "result",
+      "topic",
+      "text",
+      "document",
+      "model",
+      "method",
+      "time",
+      "elasticsearch",
+      "engine",
+      "hour"
+    ]
+  },
+  "269": {
+    "url": "https://github.com/nanyiyang/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "270": {
+    "url": "https://github.com/nasa-petal/search-engine",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "271": {
+    "url": "https://github.com/naviCh/CourseProject",
+    "tags": [
+      "stock",
+      "sentiment",
+      "model",
+      "rating",
+      "news",
+      "text",
+      "analysis",
+      "system",
+      "market",
+      "classification",
+      "classifier",
+      "twitter",
+      "dataset",
+      "analyst",
+      "set"
+    ]
+  },
+  "272": {
+    "url": "https://github.com/nmohiu6/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "273": {
+    "url": "https://github.com/nstruong13/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "274": {
+    "url": "https://github.com/nykznykz/CourseProject",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "275": {
+    "url": "https://github.com/oboffil/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "276": {
+    "url": "https://github.com/oransum/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "277": {
+    "url": "https://github.com/ottopiramuthu/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "278": {
+    "url": "https://github.com/paulzuradzki/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "279": {
+    "url": "https://github.com/pdwivedi08/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "280": {
+    "url": "https://github.com/pebblespot/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "281": {
+    "url": "https://github.com/pehartma/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "282": {
+    "url": "https://github.com/periclesrocha/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "283": {
+    "url": "https://github.com/peterzukerman/Twitter-Sarcasm-Detection",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "284": {
+    "url": "https://github.com/philipcori/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "285": {
+    "url": "https://github.com/pinkychauhan89/FakeNewsClassifier",
+    "tags": [
+      "stock",
+      "sentiment",
+      "model",
+      "rating",
+      "news",
+      "text",
+      "analysis",
+      "system",
+      "market",
+      "classification",
+      "classifier",
+      "twitter",
+      "dataset",
+      "analyst",
+      "set"
+    ]
+  },
+  "286": {
+    "url": "https://github.com/pipipiii/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "287": {
+    "url": "https://github.com/pmagunia/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "288": {
+    "url": "https://github.com/pmanden-uiuc/CourseProject",
+    "tags": [
+      "model",
+      "collection",
+      "theme",
+      "faculty",
+      "url",
+      "text",
+      "topic",
+      "cluster",
+      "mining",
+      "common",
+      "set",
+      "mixture",
+      "word",
+      "document",
+      "directory"
+    ]
+  },
+  "289": {
+    "url": "https://github.com/preetiamin/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "290": {
+    "url": "https://github.com/pritomsaha/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "291": {
+    "url": "https://github.com/pshreyareddy/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "292": {
+    "url": "https://github.com/purecod3/CourseProject",
+    "tags": [
+      "search",
+      "app",
+      "dataset",
+      "query",
+      "job",
+      "result",
+      "topic",
+      "text",
+      "document",
+      "model",
+      "method",
+      "time",
+      "elasticsearch",
+      "engine",
+      "hour"
+    ]
+  },
+  "293": {
+    "url": "https://github.com/pushpit-UIUC-courses/TextInformationSystem-CourseProject",
+    "tags": [
+      "model",
+      "collection",
+      "theme",
+      "faculty",
+      "url",
+      "text",
+      "topic",
+      "cluster",
+      "mining",
+      "common",
+      "set",
+      "mixture",
+      "word",
+      "document",
+      "directory"
+    ]
+  },
+  "294": {
+    "url": "https://github.com/pwasal3/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "295": {
+    "url": "https://github.com/qiangni-gif/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "296": {
+    "url": "https://github.com/quickcatch/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "297": {
+    "url": "https://github.com/rakesh-patnaik/CourseProject",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "298": {
+    "url": "https://github.com/raman162/UofICS410FinalProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "299": {
+    "url": "https://github.com/ramyan2/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "300": {
+    "url": "https://github.com/ratanbajpai/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "301": {
+    "url": "https://github.com/realLongjiLi/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "302": {
+    "url": "https://github.com/reckoner-david/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "303": {
+    "url": "https://github.com/retrouvailles0/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "304": {
+    "url": "https://github.com/rfonod/CS410-CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "305": {
+    "url": "https://github.com/rfraser3/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "306": {
+    "url": "https://github.com/richameher/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "307": {
+    "url": "https://github.com/ritikd2/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "308": {
+    "url": "https://github.com/rixu1/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "309": {
+    "url": "https://github.com/riyv/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "310": {
+    "url": "https://github.com/rm36/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "311": {
+    "url": "https://github.com/rnowak6/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "312": {
+    "url": "https://github.com/rohang62/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "313": {
+    "url": "https://github.com/rohankk2/Twitter-Recommendations-based-on-text",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "314": {
+    "url": "https://github.com/rosed2/CourseProject",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "315": {
+    "url": "https://github.com/roy-liu/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "316": {
+    "url": "https://github.com/rps2ff23/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "317": {
+    "url": "https://github.com/rtb-illinois/CourseProject",
+    "tags": [
+      "stock",
+      "sentiment",
+      "model",
+      "rating",
+      "news",
+      "text",
+      "analysis",
+      "system",
+      "market",
+      "classification",
+      "classifier",
+      "twitter",
+      "dataset",
+      "analyst",
+      "set"
+    ]
+  },
+  "318": {
+    "url": "https://github.com/rudyrath/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "319": {
+    "url": "https://github.com/ruikang2/BookmarkSearchEngine",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "320": {
+    "url": "https://github.com/rupsis/CourseProject",
+    "tags": [
+      "search",
+      "app",
+      "dataset",
+      "query",
+      "job",
+      "result",
+      "topic",
+      "text",
+      "document",
+      "model",
+      "method",
+      "time",
+      "elasticsearch",
+      "engine",
+      "hour"
+    ]
+  },
+  "321": {
+    "url": "https://github.com/ryan-berry-72/CourseProject",
+    "tags": [
+      "stock",
+      "sentiment",
+      "model",
+      "rating",
+      "news",
+      "text",
+      "analysis",
+      "system",
+      "market",
+      "classification",
+      "classifier",
+      "twitter",
+      "dataset",
+      "analyst",
+      "set"
+    ]
+  },
+  "322": {
+    "url": "https://github.com/rycao/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "323": {
+    "url": "https://github.com/sairanga123/CourseProject",
+    "tags": [
+      "model",
+      "collection",
+      "theme",
+      "faculty",
+      "url",
+      "text",
+      "topic",
+      "cluster",
+      "mining",
+      "common",
+      "set",
+      "mixture",
+      "word",
+      "document",
+      "directory"
+    ]
+  },
+  "324": {
+    "url": "https://github.com/sajidws/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "325": {
+    "url": "https://github.com/saketv2/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "326": {
+    "url": "https://github.com/samhq/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "327": {
+    "url": "https://github.com/samphadnis/TeamTextDragons",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "328": {
+    "url": "https://github.com/samsong2/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "329": {
+    "url": "https://github.com/samvalenp/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "330": {
+    "url": "https://github.com/sanjibg01/CS410-project-team-trailblazers",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "331": {
+    "url": "https://github.com/savigovindarajan/CourseProject",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "332": {
+    "url": "https://github.com/sbitra2/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "333": {
+    "url": "https://github.com/sdgs72/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "334": {
+    "url": "https://github.com/seanlai12/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "335": {
+    "url": "https://github.com/seuaciuc/CourseProject",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "336": {
+    "url": "https://github.com/sgangele21/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "337": {
+    "url": "https://github.com/shashivrat/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "338": {
+    "url": "https://github.com/shaukat2/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "339": {
+    "url": "https://github.com/shchau2/Linked-Page-Search-Chrome-Extension",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "340": {
+    "url": "https://github.com/shefali4/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "341": {
+    "url": "https://github.com/shiyao3/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "342": {
+    "url": "https://github.com/shreyarao/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "343": {
+    "url": "https://github.com/siswara/MedRecommendExt",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "344": {
+    "url": "https://github.com/sitajothi/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "345": {
+    "url": "https://github.com/sjma3/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "346": {
+    "url": "https://github.com/skuretski/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "347": {
+    "url": "https://github.com/snehangshugithub/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "348": {
+    "url": "https://github.com/sonalsharma5990/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "349": {
+    "url": "https://github.com/soumya834-msit/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "350": {
+    "url": "https://github.com/srashee2/CourseProject",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "351": {
+    "url": "https://github.com/srivardhansajja/tangy",
+    "tags": [
+      "model",
+      "collection",
+      "theme",
+      "faculty",
+      "url",
+      "text",
+      "topic",
+      "cluster",
+      "mining",
+      "common",
+      "set",
+      "mixture",
+      "word",
+      "document",
+      "directory"
+    ]
+  },
+  "352": {
+    "url": "https://github.com/srzn/CourseProject",
+    "tags": [
+      "search",
+      "app",
+      "dataset",
+      "query",
+      "job",
+      "result",
+      "topic",
+      "text",
+      "document",
+      "model",
+      "method",
+      "time",
+      "elasticsearch",
+      "engine",
+      "hour"
+    ]
+  },
+  "353": {
+    "url": "https://github.com/ss129/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "354": {
+    "url": "https://github.com/ssquires/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "355": {
+    "url": "https://github.com/stanleymho/uiuc-cs410-final-project",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "356": {
+    "url": "https://github.com/steve303/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "357": {
+    "url": "https://github.com/styloooo/CourseProject",
+    "tags": [
+      "search",
+      "app",
+      "dataset",
+      "query",
+      "job",
+      "result",
+      "topic",
+      "text",
+      "document",
+      "model",
+      "method",
+      "time",
+      "elasticsearch",
+      "engine",
+      "hour"
+    ]
+  },
+  "358": {
+    "url": "https://github.com/subhasishb-coder/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "359": {
+    "url": "https://github.com/sudiptobilu/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "360": {
+    "url": "https://github.com/sujay170nanj/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "361": {
+    "url": "https://github.com/surajbisht1809/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "362": {
+    "url": "https://github.com/swatinanda/CS410-Fall2021-TeamAlpha",
+    "tags": [
+      "review",
+      "model",
+      "topic",
+      "sentiment",
+      "song",
+      "analysis",
+      "dataset",
+      "task",
+      "text",
+      "word",
+      "result",
+      "lyric",
+      "system",
+      "book",
+      "number"
+    ]
+  },
+  "363": {
+    "url": "https://github.com/t1tb/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "364": {
+    "url": "https://github.com/tajshaik24/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "365": {
+    "url": "https://github.com/tgw4uiuc/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "366": {
+    "url": "https://github.com/theRocket/CourseProject",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "367": {
+    "url": "https://github.com/thecheebo/NLP-Classification-Competition-w-BERT",
+    "tags": [
+      "topic",
+      "time",
+      "model",
+      "text",
+      "series",
+      "word",
+      "modeling",
+      "prior",
+      "result",
+      "causal",
+      "document",
+      "run",
+      "context",
+      "analysis",
+      "different"
+    ]
+  },
+  "368": {
+    "url": "https://github.com/timothycheung1/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "369": {
+    "url": "https://github.com/timp33/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "370": {
+    "url": "https://github.com/tlawx/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "371": {
+    "url": "https://github.com/tmm-ai/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "372": {
+    "url": "https://github.com/tobyzl2/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "373": {
+    "url": "https://github.com/tomasanthony/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "374": {
+    "url": "https://github.com/tonydfth/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "375": {
+    "url": "https://github.com/tonymuu/CourseProject",
+    "tags": [
+      "search",
+      "app",
+      "dataset",
+      "query",
+      "job",
+      "result",
+      "topic",
+      "text",
+      "document",
+      "model",
+      "method",
+      "time",
+      "elasticsearch",
+      "engine",
+      "hour"
+    ]
+  },
+  "376": {
+    "url": "https://github.com/toskaushik/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "377": {
+    "url": "https://github.com/tpjwm/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "378": {
+    "url": "https://github.com/ttt-77/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "379": {
+    "url": "https://github.com/urviawasthi/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "380": {
+    "url": "https://github.com/varunhari2020/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "381": {
+    "url": "https://github.com/vickyli99/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "382": {
+    "url": "https://github.com/violetta-ta/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "383": {
+    "url": "https://github.com/vkreiden/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "384": {
+    "url": "https://github.com/vquiros-atieh/CourseProject",
+    "tags": [
+      "search",
+      "app",
+      "dataset",
+      "query",
+      "job",
+      "result",
+      "topic",
+      "text",
+      "document",
+      "model",
+      "method",
+      "time",
+      "elasticsearch",
+      "engine",
+      "hour"
+    ]
+  },
+  "385": {
+    "url": "https://github.com/vs27-illinois/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "386": {
+    "url": "https://github.com/waelmb/Results-Caching-System",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "387": {
+    "url": "https://github.com/wdchild/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "388": {
+    "url": "https://github.com/wfcwfcwfcwfc/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "389": {
+    "url": "https://github.com/williamdlupo/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "390": {
+    "url": "https://github.com/winston86zhu/UserSentimentAnalysis",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "391": {
+    "url": "https://github.com/woshinisenbaba/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "392": {
+    "url": "https://github.com/wujameszj/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "393": {
+    "url": "https://github.com/xiang-wang2020/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "394": {
+    "url": "https://github.com/xiaofanliu77/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "395": {
+    "url": "https://github.com/xihec3/CS410_CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "396": {
+    "url": "https://github.com/xingyuq2/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "397": {
+    "url": "https://github.com/xinqianx/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "398": {
+    "url": "https://github.com/xw23/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "399": {
+    "url": "https://github.com/yangyangsquare/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "400": {
+    "url": "https://github.com/yasiss/CourseProject-GoodreadsScraper",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "401": {
+    "url": "https://github.com/ycchang4/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "402": {
+    "url": "https://github.com/yhui288/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "403": {
+    "url": "https://github.com/yihaotan/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
+  },
+  "404": {
+    "url": "https://github.com/yil7/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "405": {
+    "url": "https://github.com/yiz9/CourseProject",
+    "tags": [
+      "model",
+      "collection",
+      "theme",
+      "faculty",
+      "url",
+      "text",
+      "topic",
+      "cluster",
+      "mining",
+      "common",
+      "set",
+      "mixture",
+      "word",
+      "document",
+      "directory"
+    ]
+  },
+  "406": {
+    "url": "https://github.com/yuanchung1987/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "407": {
+    "url": "https://github.com/yuchen9902/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "408": {
+    "url": "https://github.com/yukuo78/CourseProject",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "409": {
+    "url": "https://github.com/yunfeim2/CourseProject",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "410": {
+    "url": "https://github.com/yunhezhang/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "411": {
+    "url": "https://github.com/yuranw3/CourseProject",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "412": {
+    "url": "https://github.com/yy228731/CourseProject",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "413": {
+    "url": "https://github.com/zachdick93/CourseProject",
+    "tags": [
+      "pattern",
+      "context",
+      "frequent",
+      "author",
+      "title",
+      "aspect",
+      "model",
+      "dataset",
+      "unit",
+      "rating",
+      "transaction",
+      "set",
+      "txt",
+      "analysis",
+      "information"
+    ]
+  },
+  "414": {
+    "url": "https://github.com/zen030/CourseProject",
+    "tags": [
+      "twitter_",
+      "sarcasm",
+      "model",
+      "not_sarcasm",
+      "bert",
+      "test",
+      "text",
+      "classification",
+      "response",
+      "context",
+      "train",
+      "learning",
+      "result",
+      "dataset",
+      "trained"
+    ]
+  },
+  "415": {
+    "url": "https://github.com/zhanz1/Course-Information-Retrieval",
+    "tags": [
+      "search",
+      "task",
+      "document",
+      "topic",
+      "hour",
+      "result",
+      "system",
+      "query",
+      "time",
+      "build",
+      "meta",
+      "function",
+      "metapy",
+      "information",
+      "video"
+    ]
+  },
+  "416": {
+    "url": "https://github.com/zhihaox3/CourseProject",
+    "tags": [
+      "topic",
+      "tweet",
+      "hour",
+      "system",
+      "task",
+      "text",
+      "slide",
+      "model",
+      "sentiment",
+      "analysis",
+      "time",
+      "twitter",
+      "page",
+      "dataset",
+      "plan"
+    ]
+  },
+  "417": {
+    "url": "https://github.com/zhuxiaoyu909/CourseProject",
+    "tags": [
+      "model",
+      "document",
+      "extension",
+      "text",
+      "query",
+      "run",
+      "hour",
+      "search",
+      "ranking",
+      "script",
+      "page",
+      "dataset",
+      "result",
+      "algorithm",
+      "bert"
+    ]
   }
 }
