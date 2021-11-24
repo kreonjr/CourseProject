@@ -9,6 +9,7 @@ function App() {
   const [data, setData] = useState(null)
   const [tags, setTags] = useState([])
   const [selectedTags, setSelectedTags] = useState([])
+  const [shouldMatchAll, setShouldMatchAll] = useState(false)
 
   useEffect(() => {
     const db = ref(getDatabase(firebase))
@@ -35,7 +36,7 @@ function App() {
             setTags(
               Array.from(
                 new Set(allDocs.reduce((prev, d) => prev.concat(d.tags), []))
-              )
+              ).sort()
             )
             setData(allDocs)
           } else {
@@ -96,9 +97,32 @@ function App() {
     return (
       <>
         <div className="filter-box">
-          <p className="instructions">
-            *Select all the tags you'd like to filter the projects by
-          </p>
+          <div className="filter-header">
+            <p className="instructions">
+              *Select all the tags you'd like to filter the projects by
+            </p>
+            <div className="filter-options">
+              Match Any
+              <label className="switch">
+                <input
+                  type="checkbox"
+                  checked={shouldMatchAll}
+                  onChange={() => {
+                    setShouldMatchAll(!shouldMatchAll)
+                  }}
+                />
+                <span className="slider round" />
+              </label>
+              Match All
+              <div className="separator"/>
+              <div
+                onClick={() => setSelectedTags([])}
+                className="tag tag-selected"
+              >
+                Clear Selections
+              </div>
+            </div>
+          </div>
           <div className="filter-container">
             {tags.map((t) => {
               const isSelected = selectedTags.includes(t)
@@ -134,8 +158,14 @@ function App() {
                 </tr>
               )
               if (selectedTags.length) {
-                if (!selectedTags.some((tag) => item.tags.includes(tag))) {
-                  el = null
+                if (!shouldMatchAll) {
+                  if (!selectedTags.some((tag) => item.tags.includes(tag))) {
+                    el = null
+                  }
+                } else {
+                  if (!selectedTags.every((tag) => item.tags.includes(tag))) {
+                    el = null
+                  }
                 }
               }
               return el
@@ -164,7 +194,11 @@ function App() {
         <h1 style={{ marginBottom: 100 }}>
           <u>UIUC CS410 Final Project Filter</u>
         </h1>
-        {!data ? null : RENDER_TAGS_LIST ? renderTagsList() : renderTopicsList()}
+        {!data
+          ? null
+          : RENDER_TAGS_LIST
+          ? renderTagsList()
+          : renderTopicsList()}
       </div>
     </div>
   )
