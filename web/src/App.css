@@ -83,6 +83,7 @@ a:active {color:#00779e;}  /* Selected link   */
 table {
   border: solid 1px black;
   border-collapse: collapse;
+  width: 100%;
 }
 
 .table-header-row {
