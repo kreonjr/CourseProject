@@ -1,4 +1,3 @@
-import nltk
 import pandas as pd
 from nltk.corpus import stopwords
 #nltk.download('stopwords')
@@ -15,7 +14,7 @@ for line in fh:
     highusage_words.append(line)
 #print(highusage_words)
 
-df=pd.read_csv('project_text.tsv',sep='\t')
+df=pd.read_csv('../collect_data/project_text.tsv',sep='\t')
 
 df['file_text']=df['file_text'].str.lower() #lowercase
 df['file_textlen']=df['file_text'].apply(len)
