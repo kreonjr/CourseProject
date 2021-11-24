@@ -26,19 +26,19 @@ df['file_textlen1']=df['file_text2'].apply(len)
 df['clean_text']=df['file_text2'].apply(wordpunct_tokenize) #tokenizer to split into words
 df['clean_textlen']=df['clean_text'].apply(len)
 
-stop_words=stopwords.words('english')
-df['clean_text1']=df['clean_text'].apply(lambda x: [i for i in x if i not in stop_words]) #removing stop words
-df['clean_textlen1']=df['clean_text1'].apply(len)
+lemmatizer = WordNetLemmatizer()
+# lemmatizer.lemmatize("clustering")
+df['clean_text1']=df['clean_text'].apply(lambda x:[lemmatizer.lemmatize(i) for i in x] ) #lemmatize
 
-df['clean_text2']=df['clean_text1'].apply(lambda x: [i for i in x if i not in highusage_words]) #removing high usage words
+stop_words=stopwords.words('english')
+df['clean_text2']=df['clean_text1'].apply(lambda x: [i for i in x if i not in stop_words]) #removing stop words
 df['clean_textlen2']=df['clean_text2'].apply(len)
 
 df['clean_text3']=df['clean_text2'].apply(lambda x: [i for i in x if len(i) >2]) #removing any word that is less than 3 letters
 df['clean_textlen3']=df['clean_text3'].apply(len)
 
-lemmatizer = WordNetLemmatizer()
-# lemmatizer.lemmatize("clustering")
-df['clean_text4']=df['clean_text3'].apply(lambda x:[lemmatizer.lemmatize(i) for i in x] ) #lemmatize
+df['clean_text4']=df['clean_text3'].apply(lambda x: [i for i in x if i not in highusage_words]) #removing high usage words
+df['clean_textlen4']=df['clean_text4'].apply(len)
 
 #df
 
