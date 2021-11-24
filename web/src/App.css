@@ -69,11 +69,20 @@ a:active {color:#00779e;}  /* Selected link   */
   color: white;
 }
 
+.tableContainer {
+  width: 80%;
+  margin-Top: 50px;
+}
+
+.resultsLabel {
+  font-size: 18pt;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
 table {
   border: solid 1px black;
-  margin-Top: 50px;
   border-collapse: collapse;
-  width: 80%;
 }
 
 .table-header-row {

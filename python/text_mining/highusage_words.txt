@@ -53,3 +53,11 @@ command
 new
 list
 name
+page
+number
+job
+mixture
+theme
+hour
+run
+please
