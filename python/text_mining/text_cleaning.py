@@ -1,4 +1,4 @@
-import nltk
+import re
 import pandas as pd
 from nltk.corpus import stopwords
 #nltk.download('stopwords')
@@ -13,9 +13,10 @@ fh=open('highusage_words.txt','r')
 for line in fh:
     line=line.strip()
     highusage_words.append(line)
+fh.close()
 #print(highusage_words)
 
-df=pd.read_csv('project_text.tsv',sep='\t')
+df=pd.read_csv('../collect_data/project_text.tsv',sep='\t')
 
 df['file_text']=df['file_text'].str.lower() #lowercase
 df['file_textlen']=df['file_text'].apply(len)
@@ -27,24 +28,28 @@ df['file_textlen1']=df['file_text2'].apply(len)
 df['clean_text']=df['file_text2'].apply(wordpunct_tokenize) #tokenizer to split into words
 df['clean_textlen']=df['clean_text'].apply(len)
 
-stop_words=stopwords.words('english')
-df['clean_text1']=df['clean_text'].apply(lambda x: [i for i in x if i not in stop_words]) #removing stop words
-df['clean_textlen1']=df['clean_text1'].apply(len)
+lemmatizer = WordNetLemmatizer()
+# lemmatizer.lemmatize("clustering")
+df['clean_text1']=df['clean_text'].apply(lambda x:[lemmatizer.lemmatize(i) for i in x] ) #lemmatize
 
-df['clean_text2']=df['clean_text1'].apply(lambda x: [i for i in x if i not in highusage_words]) #removing high usage words
+stop_words=stopwords.words('english')
+df['clean_text2']=df['clean_text1'].apply(lambda x: [i for i in x if i not in stop_words]) #removing stop words
 df['clean_textlen2']=df['clean_text2'].apply(len)
 
 df['clean_text3']=df['clean_text2'].apply(lambda x: [i for i in x if len(i) >2]) #removing any word that is less than 3 letters
 df['clean_textlen3']=df['clean_text3'].apply(len)
 
-lemmatizer = WordNetLemmatizer()
-# lemmatizer.lemmatize("clustering")
-df['clean_text4']=df['clean_text3'].apply(lambda x:[lemmatizer.lemmatize(i) for i in x] ) #lemmatize
+df['clean_text4']=df['clean_text3'].apply(lambda x: [i for i in x if i not in highusage_words]) #removing high usage words
+df['clean_textlen4']=df['clean_text4'].apply(len)
+
+# Remove underscores at the ends of tokens. This changes "twitter_" to "twitter".
+df['clean_text5']=df['clean_text4'].apply(lambda x: [re.sub(r'_$', '', i) for i in x])
+df['clean_textlen5']=df['clean_text5'].apply(len)
 
 #df
 
-Newdf=df[['project_url','file_text','clean_text4']]
-Newdf.rename(columns={'clean_text4': 'clean_text'},inplace=True)
+Newdf=df[['project_url','file_text','clean_text5']]
+Newdf.rename(columns={'clean_text5': 'clean_text'},inplace=True)
 Newdf.set_index('project_url',inplace=True)
 #print(Newdf)
 Newdf.to_csv('project_clean_text.tsv', sep='\t')
