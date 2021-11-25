@@ -1,3 +1,4 @@
+import re
 import pandas as pd
 from nltk.corpus import stopwords
 #nltk.download('stopwords')
@@ -12,6 +13,7 @@ fh=open('highusage_words.txt','r')
 for line in fh:
     line=line.strip()
     highusage_words.append(line)
+fh.close()
 #print(highusage_words)
 
 df=pd.read_csv('../collect_data/project_text.tsv',sep='\t')
@@ -40,10 +42,14 @@ df['clean_textlen3']=df['clean_text3'].apply(len)
 df['clean_text4']=df['clean_text3'].apply(lambda x: [i for i in x if i not in highusage_words]) #removing high usage words
 df['clean_textlen4']=df['clean_text4'].apply(len)
 
+# Remove underscores at the ends of tokens. This changes "twitter_" to "twitter".
+df['clean_text5']=df['clean_text4'].apply(lambda x: [re.sub(r'_$', '', i) for i in x])
+df['clean_textlen5']=df['clean_text5'].apply(len)
+
 #df
 
-Newdf=df[['project_url','file_text','clean_text4']]
-Newdf.rename(columns={'clean_text4': 'clean_text'},inplace=True)
+Newdf=df[['project_url','file_text','clean_text5']]
+Newdf.rename(columns={'clean_text5': 'clean_text'},inplace=True)
 Newdf.set_index('project_url',inplace=True)
 #print(Newdf)
 Newdf.to_csv('project_clean_text.tsv', sep='\t')
