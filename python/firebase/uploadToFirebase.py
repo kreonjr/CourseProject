@@ -1,3 +1,13 @@
+"""
+uploadToFirebase.py
+
+Reads the final output of the tag mining algorithms and uploads it to 
+the firebase project's database, to update the frontend dashboard
+
+Created on November 2nd, 2021 4:44pm
+
+@author: creonc2
+"""
 import requests
 import json
 

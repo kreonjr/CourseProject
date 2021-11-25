@@ -2,3 +2,5 @@
 /python/text_mining/sample_analysis/.ipynb_checkpoints
 /python/text_mining/sample_analysis/*.lnk
 /python/text_mining/model_eval/.ipynb_checkpoints
+.DS_Store
+**/.DS_Store

@@ -34,7 +34,6 @@ topics = lda_model.print_topics(num_words=15)
 for topic in topics:
     #print(topic)
     topic_word_dict[topic[0]]=topic[1]
-    number+=1
 #topic_word_dict
 
 doc_topic_dist_dict={} #dictionary to capture the topic distribution per mega document
