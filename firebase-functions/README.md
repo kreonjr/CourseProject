@@ -31,3 +31,6 @@ curl --location --request POST 'https://us-central1-topic-thunder-a7103.cloudfun
     ]
   }
 }'
+```
+
+This cloud function does not  need updating as the data changes but in case you need to fix an error or update this cloud function, please contact [Creon Creonopoulos](mailto:creonc2@illinois.edu) for access to the firebase console tied to this project.
