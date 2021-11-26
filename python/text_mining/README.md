@@ -1,8 +1,8 @@
-# Text Cleaning
+# Text Cleaning & Topic Mining
 
 ## Overview
 
-The scripts available here perform data cleaning on the web scraped data made available and then proceed to perform LDA Topic Mining.
+The scripts present here perform data cleaning on the web scraped data made available in the collect_data folder and then proceed to perform LDA Topic Mining and analysis.
 
 ## Requirements
 
@@ -12,13 +12,13 @@ Python packages used:
 * pandas 1.2.4
 * regex 2021.4.4
 * nltk 3.6.1
-  import stopwords
-  import wordpunt_tokenize
-  import WordNetLemmatizer
+  * import stopwords
+  * import wordpunt_tokenize
+  * import WordNetLemmatizer
 * gensim 4.1.2
-  import gensim.corpora
-  import LdaModel
-  import CoherenceModel
+  * import gensim.corpora
+  * import LdaModel
+  * import CoherenceModel
 * pyLDAvis 3.3.1
 * matplotlib 3.3.4
 
@@ -26,8 +26,8 @@ Python packages used:
 
 ### `text_cleaning.py`
 
-Takes the scraped content from the forked github projects that is stored in python/collect_data/project_text.tsv and performs a series of data cleaning steps on it.
-This script makes text lower case and removes punctuations and digits, tokenizes, lemmatizes and also removes high frequency words which are not considered as high value words for tag creation.
+Takes the scraped content from the forked github projects that are stored in python/collect_data/project_text.tsv and performs a series of data cleaning steps on it.
+This script makes all the content lower case,removes punctuations and digits, tokenizes, lemmatizes and also removes high frequency words which are not considered as high value words for tag creation.
 
 #### Output
 
