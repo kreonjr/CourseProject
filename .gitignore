@@ -4,3 +4,4 @@
 /python/text_mining/model_eval/.ipynb_checkpoints
 .DS_Store
 **/.DS_Store
+**/.env
