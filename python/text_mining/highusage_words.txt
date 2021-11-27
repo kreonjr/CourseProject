@@ -81,3 +81,8 @@ word
 work
 would
 www
+book
+tweet
+layer
+get
+slide
