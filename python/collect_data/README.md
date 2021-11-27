@@ -4,6 +4,8 @@
 
 These are the scripts which harvest text from document files of past CS 410 projects. That text will be used for further analysis.
 
+To harvest the text, first run `clone_forks.py` as below to clone forks of the base CS 410 project repository. Then run `get_project_text.py` to collect text from the clones.
+
 ## Requirements
 
 Git must be installed for `clone_forks.py` to work. This project used git version 2.17.1.windows.2.
@@ -28,6 +30,8 @@ Python packages used:
 
 Takes a URL of GitHub forks from the main CS 410 project and returns a CSV of information and links to each project. Optionally gets shallow clones of projects that were last pushed more than n months ago.
 
+The functionality to walk through forks of a Github project comes from the [findforks repo](https://github.com/akumria/findforks) by Anand Kumria.
+
 #### Arguments
 * `--forksurl`: URL for GitHub API to retrieve desired forks
 * `--destination`: local top-level folder to clone to
@@ -38,7 +42,7 @@ Takes a URL of GitHub forks from the main CS 410 project and returns a CSV of in
 * When `--doclone` is "yes", shallow clones of GitHub repos more than `--minmonthsold` months old.
 * `repo_forks.csv`: file of information about each fork. Will be used in the following step to help harvest text.
 
-#### Example Usage
+#### Usage
 
 ```
 python ./clone_forks.py --forksurl "https://api.github.com/repos/CS410Assignments/CourseProject/forks" --destination "./Past_Projects" --doclone "yes" --minmonthsold 3
@@ -58,7 +62,7 @@ The script converts sequences of whitespace characters into single space charact
 * `project_file_text.tsv`: tab-delimited file of project URLs, filenames, and the text harvested from those files. One row per project file.
 * `project_text.tsv`: same as above, but with a single line per project. Concatenates text from each project's files.
 
-#### Example Usage
+#### Usage
 ```
 python ./get_project_text.py --projectlist "./Past_Projects/repo_forks.csv" --projectroot "./Past_Projects"
 ```
