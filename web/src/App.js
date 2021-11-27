@@ -9,6 +9,8 @@ function App() {
   const [tags, setTags] = useState([])
   const [selectedTags, setSelectedTags] = useState([])
   const [shouldMatchAll, setShouldMatchAll] = useState(false)
+  const [dataLoaded, setDataLoaded] = useState(false)
+  const [loadingError, setLoadingError] = useState(null)
 
   useEffect(() => {
     // Fetch all the data and add a listener so that the apge refreshes if the database data changes
@@ -32,12 +34,14 @@ function App() {
           )
 
           setData(allDocs)
+          setDataLoaded(true)
         } else {
-          console.log("No data available")
+          setLoadingError("No Data Available")
         }
       },
       (error) => {
         console.error(error)
+        setLoadingError(error.message)
       }
     )
 
@@ -47,7 +51,7 @@ function App() {
   }, [])
 
   useEffect(() => {
-    // When the selected tags or the matching swithc is changed
+    // When the source data, the selected tags or the matching switch is changed
     // re-run the filtering to get the newly filtered data
     const filterdData = data.filter((item, idx) => {
       if (selectedTags.length) {
@@ -72,83 +76,54 @@ function App() {
   }, [selectedTags, shouldMatchAll, data])
 
   const renderTagsList = () => {
-    const displayArr = selectedTags.length ? filteredData : data
     return (
-      <>
-        <div className="filter-box">
-          <div className="filter-header">
-            <p className="instructions">
-              *Select all the tags you'd like to filter the projects by
-            </p>
-            <div className="filter-options">
-              Match Any
-              <label className="switch">
-                <input
-                  type="checkbox"
-                  checked={shouldMatchAll}
-                  onChange={() => {
-                    setShouldMatchAll(!shouldMatchAll)
-                  }}
-                />
-                <span className="slider round" />
-              </label>
-              Match All
-              <div className="separator" />
-              <div
-                onClick={() => setSelectedTags([])}
-                className="tag tag-selected"
-              >
-                Clear Selections
-              </div>
+      <div className="filter-box">
+        <div className="filter-header">
+          <p className="instructions">
+            *Select all the tags you'd like to filter the projects by
+          </p>
+          <div className="filter-options">
+            Match Any
+            <label className="switch">
+              <input
+                type="checkbox"
+                checked={shouldMatchAll}
+                onChange={() => {
+                  setShouldMatchAll(!shouldMatchAll)
+                }}
+              />
+              <span className="slider round" />
+            </label>
+            Match All
+            <div className="separator" />
+            <div
+              onClick={() => setSelectedTags([])}
+              className="tag tag-selected"
+            >
+              Clear Selections
             </div>
           </div>
-          <div className="filter-container">
-            {tags.map((t) => {
-              const isSelected = selectedTags.includes(t)
-              return (
-                <div
-                  key={t}
-                  onClick={() => setSelectedTag(t)}
-                  className={`tag ${isSelected ? "tag-selected" : ""}`}
-                >
-                  {t}
-                </div>
-              )
-            })}
-          </div>
         </div>
-        <div className="tableContainer">
-          {!!selectedTags.length && (
-            <div className="resultsLabel">{`Results: ${filteredData.length}`}</div>
-          )}
-          <table>
-            <thead>
-              <tr className="table-header-row">
-                <td>Github URL</td>
-                <td>Tags</td>
-              </tr>
-            </thead>
-            <tbody>
-              {displayArr.map((item, idx) => {
-                return (
-                  <tr key={idx} className="table-item-row">
-                    <td>
-                      <a href={item.url} target="_blank" rel="noreferrer">
-                        {item.url}
-                      </a>
-                    </td>
-                    <td>{Object.values(item.tags).join(", ")}</td>
-                  </tr>
-                )
-              })}
-            </tbody>
-          </table>
+        <div className="filter-container">
+          {tags.map((t) => {
+            const isSelected = selectedTags.includes(t)
+            return (
+              <div
+                key={t}
+                onClick={() => setSelectedTag(t)}
+                className={`tag ${isSelected ? "tag-selected" : ""}`}
+              >
+                {t}
+              </div>
+            )
+          })}
         </div>
-      </>
+      </div>
     )
   }
 
   const setSelectedTag = (tag) => {
+    // Update the filter tags list by adding or removing the selected tag
     const currentSelectedTags = [...selectedTags]
     const index = currentSelectedTags.indexOf(tag)
     if (index === -1) {
@@ -160,13 +135,62 @@ function App() {
     setSelectedTags(currentSelectedTags)
   }
 
+  const displayArr = selectedTags.length ? filteredData : data
+  const resultsLabel = !!selectedTags.length
+    ? `Filtered Projects: ${filteredData.length}`
+    : `Total Projects: ${data.length}`
+
+  const renderLoadingData = () => {
+    if (loadingError) {
+      return (
+        <div>
+          Something went wrong.
+          <div style={{ fontSize: 14 }}>(Error Message: {loadingError})</div>
+        </div>
+      )
+    } else {
+      return "Loading ..."
+    }
+  }
+
   return (
     <div className="App">
       <div className="App-body">
         <h1 style={{ marginBottom: 100 }}>
           <u>UIUC CS410 Final Project Filter</u>
         </h1>
-        {!data ? null : renderTagsList()}
+        {!dataLoaded ? (
+          renderLoadingData()
+        ) : (
+          <>
+            {renderTagsList()}
+            <div className="tableContainer">
+              <div className="resultsLabel">{resultsLabel}</div>
+              <table>
+                <thead>
+                  <tr className="table-header-row">
+                    <td>Github URL</td>
+                    <td>Related Tags</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  {displayArr.map((item, idx) => {
+                    return (
+                      <tr key={idx} className="table-item-row">
+                        <td>
+                          <a href={item.url} target="_blank" rel="noreferrer">
+                            {item.url}
+                          </a>
+                        </td>
+                        <td>{Object.values(item.tags).join(", ")}</td>
+                      </tr>
+                    )
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </>
+        )}
       </div>
     </div>
   )
