@@ -1,6 +1,14 @@
-import nltk
+# Take cleaned text of CS 410 course projects and generate an LDA topic model.
+# Output the dominant project for each topic to tab-separated and JSON files.
+# The Team Topic Thunder web app will consume the JSON.
+#
+# NOTE: To generate LDA topic model, use the same settings as the optimal model
+# in the model_eval/topic_model_eval Jupyter notebook.
+# Alternatively, can just load the saved model from the saved_model subfolder.
+
 from nltk.tokenize import wordpunct_tokenize
 import pandas as pd
+import json
 #! pip install --upgrade gensim
 import gensim
 import gensim.corpora as corpora
@@ -24,13 +32,15 @@ doc_term_matrix = [dictionary.doc2bow(doc, allow_update=True) for doc in megalis
 
 lda_model = gensim.models.ldamodel.LdaModel(corpus=doc_term_matrix,
                                            id2word=dictionary,
-                                           num_topics=10,
+                                           num_topics=12,
+                                           random_state=100,
                                            passes=10,
-                                           iterations=50
+                                           iterations=50,
+                                           alpha='auto'
                                            )
 
 topic_word_dict={} #dictionary to capture the word distribution per topic
-topics = lda_model.print_topics(num_words=15)
+topics = lda_model.print_topics(num_words=10)
 for topic in topics:
     #print(topic)
     topic_word_dict[topic[0]]=topic[1]
@@ -73,18 +83,21 @@ Newdf.set_index('project_url',inplace=True)
 #print(Newdf)
 Newdf.to_csv('AlgOutput.tsv', sep='\t')
 
-print(lda_model.log_perplexity(doc_term_matrix))
+# Finally, generate JSON for the web app to consume.
 
-# Below stuff could be important from a evaluating the model standpoint
+algoutput_df=pd.read_csv('AlgOutput.tsv',sep='\t')
+#data['Topics']
+#pd.Series(data.Topics.values,index=data.project_url).to_dict()
+topic_dict={} #Dictionary to hold all the topics
+for i in range(len(df)):
+    url_dict={} #dictionary to hold one url at a time
+    url_dict['url']=algoutput_df['project_url'][i]
+    url_dict['tags']=json.loads(algoutput_df['Topics'][i].replace("'", '"'))
+    topic_dict[i]=url_dict
 
-# from gensim.models.coherencemodel import CoherenceModel
-# A=CoherenceModel(model=lda_model,texts=megalist,dictionary=dictionary,coherence='c_v')
-# B=A.get_coherence()
-# print(B)
-#
-# #!pip install pyLDAvis
-# import pyLDAvis
-# import pyLDAvis.gensim_models
-# pyLDAvis.enable_notebook()
-# vis = pyLDAvis.gensim_models.prepare(lda_model, corpus, id2word)
-# vis
+#topic_dict
+
+fileout=open('firebase-output.json','w')
+json.dump(topic_dict,fileout)
+fileout.close()
+
