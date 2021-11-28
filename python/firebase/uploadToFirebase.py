@@ -10,6 +10,10 @@ Created on November 2nd, 2021 4:44pm
 """
 import requests
 import json
+import os
+
+from dotenv import load_dotenv
+load_dotenv()
 
 url = "https://us-central1-topic-thunder-a7103.cloudfunctions.net/updateDatabase"
 
@@ -18,7 +22,7 @@ data = json.load(f)
 payload = json.dumps(data)
 
 headers = {
-  'x-api-key': '8efa1e88-d80c-45ee-850e-9d78bc81f9bb',
+  'x-api-key': os.environ.get("UPLOAD-API-KEY"),
   'Content-Type': 'application/json'
 }
 response = requests.request("POST", url, headers=headers, data=payload)

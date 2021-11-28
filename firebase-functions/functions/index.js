@@ -13,7 +13,7 @@ admin.initializeApp(firebaseConfig)
 const db = admin.database();
 
 exports.updateDatabase = functions.https.onRequest((request, response) => {
-  if (request.headers["x-api-key"] !== "8efa1e88-d80c-45ee-850e-9d78bc81f9bb") {
+  if (request.headers["x-api-key"] !== functions.config().upload.key) {
     response.status(401).send("Unauthorized");
   } else {
     if (!request.body || Object.keys(request.body).length == 0) {

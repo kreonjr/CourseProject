@@ -42,7 +42,7 @@ Each folder contains a README with instruction on how to run the code inside it,
 
 > cd ../firebase
 
-> python uploadToFirebase.py
+> python uploadToFirebase.py (Requires api-key. See more details in 'python/firebase/' folder README)
 ```
 
 ### topic-files
