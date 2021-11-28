@@ -11,15 +11,26 @@ import pandas as pd
 import json
 import gensim
 import gensim.corpora as corpora
+from gensim.models import Phrases
+from gensim.models.phrases import Phraser
+
 
 # Convert file from a string as we are reading from .tsv
 from ast import literal_eval 
 df=pd.read_csv('project_clean_text.tsv',sep='\t',converters={'clean_text': literal_eval})
 
-# Creating a mega list of each mega document's cleaned up tokens
-megalist=[]
-for i in range (len(df)):
-    megalist.append(df['clean_text'][i])
+# Form bigrams for greater interpretability.
+
+# Get cleaned text as list for further processing.
+clean_text = df['clean_text'].to_list()
+
+# Build bigram model. Set min_count and threshold arguments arbitrarily.
+# These are hyperparameters, so would have to be learned to achieve more targeted values.
+bigram = Phrases(clean_text, min_count=5, threshold=15)
+bigram_phraser = Phraser(bigram)
+
+# Finally, create bigrammed version of clean_text for further processing.
+megalist = [bigram_phraser[doc] for doc in clean_text]
 
 # Creating a dictionary from the list of lists
 dictionary=corpora.Dictionary(megalist) 
@@ -29,7 +40,7 @@ doc_term_matrix = [dictionary.doc2bow(doc, allow_update=True) for doc in megalis
 
 lda_model = gensim.models.ldamodel.LdaModel(corpus=doc_term_matrix,
                                            id2word=dictionary,
-                                           num_topics=16,
+                                           num_topics=8,
                                            random_state=100,
                                            passes=10,
                                            iterations=50,
