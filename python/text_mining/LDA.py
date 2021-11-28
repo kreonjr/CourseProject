@@ -29,7 +29,7 @@ doc_term_matrix = [dictionary.doc2bow(doc, allow_update=True) for doc in megalis
 
 lda_model = gensim.models.ldamodel.LdaModel(corpus=doc_term_matrix,
                                            id2word=dictionary,
-                                           num_topics=12,
+                                           num_topics=16,
                                            random_state=100,
                                            passes=10,
                                            iterations=50,
