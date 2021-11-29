@@ -25,7 +25,7 @@ The project is split into 4 main folders.
 
 ### python
 This folder contains all the python code related to data collection, data cleaning, topic modeling and database updating.
-Each folder contains a README with instruction on how to run the code inside it, but here is the summary of set of insctuctions you have to run a fresh data collection and update of the Web App:
+Each folder contains a README with instruction on the dependencies needed for each script and how to run the code inside it, but here is the summary of set of insctuctions if you have to run a fresh data collection and update of the Web App:
 
 ```
 > cd python/collect_data
@@ -42,7 +42,7 @@ Each folder contains a README with instruction on how to run the code inside it,
 
 > cd ../firebase
 
-> python uploadToFirebase.py (Requires api-key. See more details in 'python/firebase/' folder README)
+> python uploadToFirebase.py (Requires API-KEY. See more details in the 'python/firebase' folder's README)
 ```
 
 ### topic-files

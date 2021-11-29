@@ -2,7 +2,7 @@
 
 ## Overview
 
-The script here is the final step to update the WebApp with the output found in `python/text_mining/firebase-output.json`
+The script here is the final step to update the WebApp with the output found in `python/text_mining/firebase-output.json`. You should not need to run this script to test the functionality of the Web App but you certainly can. ***(See note on api-key authentication below)**
 
 ## Requirements
 
@@ -16,7 +16,7 @@ Python packages used:
 
 <span style="color:red">__Important Note!!__</span>
 
-For security reasons (*mainly so that not everyone can write to our database*), you will also need to create a file called `.env` in the same folder as this __README__, which will contain the firebase api key to update the database. If you want to test our database upload system, please reach out and we will be more than happy to share the key with you.
+For security reasons (*mainly so that not everyone can write to our database*), you will also need to create a file called `.env` in the same folder as this __README__, which will contain the firebase api key to update the database. If you want to test our database upload system, please reach out to [Creon Creonopoulos](creonc2@illinois.edu) and we will be more than happy to share the key with you.
 
 Example .env:
 ```
