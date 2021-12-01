@@ -16,7 +16,7 @@ Python packages used:
 
 <span style="color:red">__Important Note!!__</span>
 
-For security reasons (*mainly so that not everyone can write to our database*), you will also need to create a file called `.env` in the same folder as this __README__, which will contain the firebase api key to update the database. If you want to test our database upload system, please reach out to [Creon Creonopoulos](creonc2@illinois.edu) and we will be more than happy to share the key with you.
+For security reasons (*mainly so that not everyone can write to our database*), you will also need to create a file called `.env` in the same folder as this __README__, which will contain the firebase api key to update the database. If you want to test our database upload system, and you are a project reviewer, please look at the  CMT submission under the "Abstract" section for the API KEY. Otherwise, please reach out to [Creon Creonopoulos](creonc2@illinois.edu) and we will be more than happy to share the key with you.
 
 Example .env:
 ```
