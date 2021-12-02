@@ -1,11 +1,11 @@
 import re
 import pandas as pd
 from nltk.corpus import stopwords
-#nltk.download('stopwords')
-#from nltk.tokenize import sent_tokenize
+import nltk
+nltk.download('stopwords')
+nltk.download('wordnet')
 from nltk.tokenize import wordpunct_tokenize
 from nltk.stem import WordNetLemmatizer
-#from nltk.stem import PorterStemmer
 
 #pulling in list of high usage words
 highusage_words=[]
@@ -14,7 +14,6 @@ for line in fh:
     line=line.strip()
     highusage_words.append(line)
 fh.close()
-#print(highusage_words)
 
 df=pd.read_csv('../collect_data/project_text.tsv',sep='\t')
 
@@ -29,7 +28,7 @@ df['clean_text']=df['file_text2'].apply(wordpunct_tokenize) #tokenizer to split 
 df['clean_textlen']=df['clean_text'].apply(len)
 
 lemmatizer = WordNetLemmatizer()
-# lemmatizer.lemmatize("clustering")
+
 df['clean_text1']=df['clean_text'].apply(lambda x:[lemmatizer.lemmatize(i) for i in x] ) #lemmatize
 
 stop_words=stopwords.words('english')
@@ -51,24 +50,5 @@ df['clean_textlen5']=df['clean_text5'].apply(len)
 Newdf=df[['project_url','file_text','clean_text5']]
 Newdf.rename(columns={'clean_text5': 'clean_text'},inplace=True)
 Newdf.set_index('project_url',inplace=True)
-#print(Newdf)
+
 Newdf.to_csv('project_clean_text.tsv', sep='\t')
-
-
-#extra cleaning if needed
-#df['file_text2']=df['file_text2'].str.replace('  ','') #removing double spaces may not be needed
-# # df['clean_text2']=df['clean_text1'].apply(lambda x:list(dict.fromkeys(x))) #remove duplicates
-# # df['clean_textlen2']=df['clean_text2'].apply(len)
-# remove non english words -- but didn't work that well
-# nltk.download('words')
-# words = set(nltk.corpus.words.words())
-# words
-# df['clean_text2']=df['clean_text1'].apply(lambda x: [i for i in x if i not in words])
-# df['clean_textlen2']=df['clean_text2'].apply(len)
-
-#ps=PorterStemmer()
-#ps.stem('clusters')
-#df['clean_text3']=df['clean_text2'].apply(lambda x:[ps.stem(i) for i in x] ) #stemming
-# df['clean_textlen2']=df['clean_text2'].apply(len)
-# df['new']=df['file_text2'].apply(lambda x:nltk.pos_tag(x))
-# df

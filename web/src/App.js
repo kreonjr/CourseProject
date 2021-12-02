@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import "./App.css"
 import { firebase } from "./shared/firebaseConfig"
 import { getDatabase, ref, onValue } from "firebase/database"
+const dropTags = require("./drop_tags.json")
 
 function App() {
   const [data, setData] = useState([])
@@ -29,7 +30,7 @@ function App() {
           // Create a unique array of tags to display for filtering
           setTags(
             Array.from(
-              new Set(allDocs.reduce((prev, d) => prev.concat(d.tags), []))
+              new Set(allDocs.reduce((prev, d) => prev.concat(d.tags).filter((t) => !dropTags.includes(t)), []))
             ).sort()
           )
 
