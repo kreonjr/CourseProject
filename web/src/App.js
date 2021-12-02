@@ -113,7 +113,7 @@ function App() {
                 onClick={() => setSelectedTag(t)}
                 className={`tag ${isSelected ? "tag-selected" : ""}`}
               >
-                {t}
+                {t.replace("_", " ")}
               </div>
             )
           })}
