@@ -33,10 +33,13 @@ Takes a URL of GitHub forks from the main CS 410 project and returns a CSV of in
 The functionality to walk through forks of a Github project comes from the [findforks repo](https://github.com/akumria/findforks) by Anand Kumria.
 
 #### Arguments
-* `--forksurl`: URL for GitHub API to retrieve desired forks
-* `--destination`: local top-level folder to clone to
-* `--doclone`: whether to perform cloning step. "yes" to clone, "no" to simply collect info about the forks.
-* `--minmonthsold`: only clone forks that were last pushed at least this number of months ago.
+
+Call `clone_forks.py` with no arguments to use default settings.
+
+* `--forksurl`: URL for GitHub API to retrieve desired forks. Default: <https://api.github.com/repos/CS410Assignments/CourseProject/forks>
+* `--destination`: local top-level folder to clone to. Defaults to subfolder "repo_forks" of the directory the script is in.
+* `--doclone`: whether to perform cloning step. "yes" to clone, "no" to simply collect info about the forks. Defaults to "yes". 
+* `--minmonthsold`: only clone forks that were last pushed at least this number of months ago. Defaults to 0.
 
 #### Output
 * When `--doclone` is "yes", shallow clones of GitHub repos more than `--minmonthsold` months old.
@@ -45,7 +48,7 @@ The functionality to walk through forks of a Github project comes from the [find
 #### Usage
 
 ```
-python ./clone_forks.py --forksurl "https://api.github.com/repos/CS410Assignments/CourseProject/forks" --destination "./Past_Projects" --doclone "yes" --minmonthsold 3
+python ./clone_forks.py --forksurl "https://api.github.com/repos/CS410Assignments/CourseProject/forks" --destination "./repo_forks" --doclone "yes" --minmonthsold 0
 ```
 
 ### `get_project_text.py`
@@ -55,8 +58,12 @@ Given a `repo_forks.csv` file (see above) and a directory of cloned repositories
 The script converts sequences of whitespace characters into single space characters. The script also converts non-ASCII Unicode characters to their closest ASCII equivalents.
 
 #### Arguments
-* `--projectlist`: CSV file containing information about the cloned CS 410 projects. Helps associate project URLs with harvested text.
-* `--projectroot`: folder containing cloned CS 410 projects. Walks through the top level of each project directory and harvests textual documents.
+
+Call `get_project_text.py` with no arguments to use default settings.
+
+* `--projectlist`: CSV file containing information about the cloned CS 410 projects. Helps associate project URLs with harvested text. Defaults to "repo_forks.csv" in the same folder as the script.
+* `--projectroot`: folder containing cloned CS 410 projects. Walks through the top level of each project directory and harvests textual documents. Defaults to subfolder "repo_forks" of the directory the script is in.
+* `--outputdir`: Destination directory of output files. Defaults to the script's folder.
 
 #### Output
 * `project_file_text.tsv`: tab-delimited file of project URLs, filenames, and the text harvested from those files. One row per project file.
@@ -64,5 +71,5 @@ The script converts sequences of whitespace characters into single space charact
 
 #### Usage
 ```
-python ./get_project_text.py --projectlist "./Past_Projects/repo_forks.csv" --projectroot "./Past_Projects"
+python ./get_project_text.py --projectlist "./repo_forks.csv" --projectroot "./repo_forks" --outputdir "."
 ```

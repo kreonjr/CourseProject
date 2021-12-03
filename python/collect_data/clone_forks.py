@@ -7,10 +7,16 @@ locally clone them to a specified directory.
 Also output a CSV of forks to that directory.
 
 Arguments:
-    --forksurl: URL for GitHub API to retrieve desired forks
-    --destination: Local top-level folder to clone to
+    --forksurl: URL for GitHub API to retrieve desired forks.
+        Defaults to https://api.github.com/repos/CS410Assignments/CourseProject/forks
+    --forksdest: Local top-level folder to clone to.
+        Defaults to subfolder "repo_forks" of the directory this script is in.
+    --outputfile: path and name of the output list of forks. Format is CSV.
+        Defaults to "repo_forks.csv" in the same folder as this script.
     --doclone: whether to perform cloning step. "yes" to clone, "no" to simply collect info about the forks.
+        Default is "yes".
     --minmonthsold: only process forks that were last pushed at least this number of months ago.
+        Default = 0.
 
 Heavily based on findforks.py by Anand Kumria:
     https://github.com/akumria/findforks
@@ -126,30 +132,32 @@ def shallow_clone_forks(forks_df, destination, min_months_old):
 
 
 def main():
+    
+    # Get folder this script is running from
+    script_dir = os.path.dirname(__file__).replace("\\", "/")
+    
+    # Get any provided arguments. Use defaults for any not provided
     parser = argparse.ArgumentParser()
-    parser.add_argument("--forksurl", help="URL for GitHub API to retrieve desired forks", default="origin")
-    parser.add_argument("--destination", help="Local top-level folder to clone to", default=os.getcwd().replace("\\","/"))
-    parser.add_argument("--doclone", help="Whether to perform cloning step", default="no")
-    parser.add_argument("--minmonthsold", help="The minimum number of months since a repo was last pushed", default=3)
+    parser.add_argument("--forksurl", help="URL for GitHub API to retrieve desired forks", default="https://api.github.com/repos/CS410Assignments/CourseProject/forks")
+    parser.add_argument("--forksdest", help="Local top-level folder to clone to", default=os.path.join(script_dir, "repo_forks"))
+    parser.add_argument("--outputfile", help="CSV output list of forks", default=os.path.join(script_dir, "repo_forks.csv"))
+    parser.add_argument("--doclone", help="Whether to perform cloning step", default="yes")
+    parser.add_argument("--minmonthsold", help="The minimum number of months since a repo was last pushed", default=0)
     args = parser.parse_args()
     
-    #print("args.forksurl: ", args.forksurl)
-
     # Get dataframe of forks
     forks_df = find_forks(args.forksurl)
     
     # First create the destination path if it doesn't exist.
-    if (not os.path.isdir(args.destination)):
-        os.makedirs(args.destination)
+    if (not os.path.isdir(args.forksdest)):
+        os.makedirs(args.forksdest)
 
     # Output dataframe of forks.
-    forks_df.to_csv(os.path.join(args.destination, "repo_forks.csv"), index=False)
+    forks_df.to_csv(args.outputfile, index=False)
     
     # If desired, clone forks of at least minimum age
     if (args.doclone == "yes"):
-        shallow_clone_forks(forks_df, args.destination, args.minmonthsold)
-    
-    
+        shallow_clone_forks(forks_df, args.forksdest, args.minmonthsold)
 
 
 if __name__ == "__main__":

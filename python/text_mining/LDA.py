@@ -6,6 +6,7 @@
 # in the model_eval/topic_model_eval Jupyter notebook.
 # Alternatively, can just load the saved model from the saved_model subfolder.
 
+import os
 from nltk.tokenize import wordpunct_tokenize
 import pandas as pd
 import json
@@ -14,6 +15,9 @@ import gensim.corpora as corpora
 from gensim.models import Phrases
 from gensim.models.phrases import Phraser
 
+# Set current working directory to the folder the script is in
+script_dir = os.path.dirname(__file__).replace("\\", "/")
+os.chdir(script_dir)
 
 # Convert file from a string as we are reading from .tsv
 from ast import literal_eval 
@@ -81,8 +85,8 @@ for url in range(len(df)):
     df['Topics'][url]=doc_topic_final_dict[url] 
 
 # Cleaning up the new column and tokenize
-df['Topics1']=df['Topics'].str.replace('[^\w\s]',' ')
-df['Topics2']=df['Topics1'].str.replace('[\d]',' ')
+df['Topics1']=df['Topics'].str.replace('[^\w\s]',' ',regex=True)
+df['Topics2']=df['Topics1'].str.replace('[\d]',' ',regex=True)
 df['Topics3']=df['Topics2'].apply(wordpunct_tokenize)
 
 Newdf=df[['project_url','file_text','clean_text','Topics3']]

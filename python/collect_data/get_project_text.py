@@ -7,6 +7,14 @@ Handles .md, .pdf, .docx, .pptx.
 Stores text in two output files: one with a single row per project file,
 and another with a single row per project.
 
+Arguments:
+    --projectlist: CSV list of locally-cloned GitHub projects.
+        Defaults to "repo_forks.csv" in the same folder as this script.
+    --projectroot: Root directory of locally-cloned GitHub projects.
+        Defaults to subfolder "repo_forks" of the directory this script is in.
+    --outputdir: Destination directory of output files.
+        Defaults to the folder this script is in.
+
 Created on Sat Oct 30 20:55:24 2021
 
 @author: ktuoh
@@ -26,7 +34,7 @@ from markdown import markdown
 
 # Arguments:
     # projectlist: CSV list of projects.
-    # projectroot: root folder containing cloned projects.
+    # outputdir: destination directory of output files.
 
 # Steps:
     # Read in list of projects
@@ -192,10 +200,14 @@ def process_project_list(project_df, project_root):
 
 def main():
     
+    # Get folder this script is running from
+    script_dir = os.path.dirname(__file__).replace("\\", "/")
+    
     # Get arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument("--projectlist", help="CSV list of locally-cloned GitHub projects")
-    parser.add_argument("--projectroot", help="Root directory of locally-cloned GitHub projects", default=os.getcwd().replace("\\","/"))
+    parser.add_argument("--projectlist", help="CSV list of locally-cloned GitHub projects", default=os.path.join(script_dir, "repo_forks.csv"))
+    parser.add_argument("--projectroot", help="Root directory of locally-cloned GitHub projects", default=os.path.join(script_dir, "repo_forks"))
+    parser.add_argument("--outputdir", help="Destination directory of output", default=script_dir)
     args = parser.parse_args()
 
     # Read project list
@@ -208,11 +220,11 @@ def main():
     # Get dataframe of projects, textual files and their contents. One row per file.
     project_file_df = process_project_list(project_df, args.projectroot)
     # Output results
-    project_file_df.to_csv(os.path.join(args.projectroot, "project_file_text.tsv"), sep="\t", index=False)
+    project_file_df.to_csv(os.path.join(args.outputdir, "project_file_text.tsv"), sep="\t", index=False)
 
     # Concatenate text of each project's files and produce one row per project
     project_text_series = project_file_df.groupby("project_url")["file_text"].agg(" ".join)
-    project_text_series.to_csv(os.path.join(args.projectroot, "project_text.tsv"), sep="\t", index=True)
+    project_text_series.to_csv(os.path.join(args.outputdir, "project_text.tsv"), sep="\t", index=True)
     
 
 if __name__ == "__main__":

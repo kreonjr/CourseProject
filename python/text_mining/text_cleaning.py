@@ -1,3 +1,4 @@
+import os
 import re
 import pandas as pd
 from nltk.corpus import stopwords
@@ -6,6 +7,10 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 from nltk.tokenize import wordpunct_tokenize
 from nltk.stem import WordNetLemmatizer
+
+# Set current working directory to the folder the script is in
+script_dir = os.path.dirname(__file__).replace("\\", "/")
+os.chdir(script_dir)
 
 #pulling in list of high usage words
 highusage_words=[]
@@ -20,8 +25,8 @@ df=pd.read_csv('../collect_data/project_text.tsv',sep='\t')
 df['file_text']=df['file_text'].str.lower() #lowercase
 df['file_textlen']=df['file_text'].apply(len)
 
-df['file_text1']=df['file_text'].str.replace('[^\w\s]',' ') #removing punctuations and replace with space to keep the text in links intact
-df['file_text2']=df['file_text1'].str.replace('[\d]',' ') #removing digits and replace with space to prevent forming new words like b23ac67k will become back
+df['file_text1']=df['file_text'].str.replace('[^\w\s]',' ',regex=True) #removing punctuations and replace with space to keep the text in links intact
+df['file_text2']=df['file_text1'].str.replace('[\d]',' ',regex=True) #removing digits and replace with space to prevent forming new words like b23ac67k will become back
 df['file_textlen1']=df['file_text2'].apply(len)
 
 df['clean_text']=df['file_text2'].apply(wordpunct_tokenize) #tokenizer to split into words
