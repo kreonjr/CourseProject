@@ -6,3 +6,4 @@
 **/.DS_Store
 **/.env
 /topic-files/Manual_Topic_Evaluation_Round_2.xlsx
+/python/text_mining/model_eval/saved_model
