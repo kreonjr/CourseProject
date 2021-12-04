@@ -30,7 +30,6 @@ fork
 get
 git
 github
-glove
 going
 google
 hour
