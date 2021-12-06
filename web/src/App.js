@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react"
 import "./App.css"
 import { firebase } from "./shared/firebaseConfig"
 import { getDatabase, ref, onValue } from "firebase/database"
-const dropTags = require("./drop_tags.json")
 
 function App() {
   const [data, setData] = useState([])
   const [filteredData, setFilteredData] = useState([])
   const [tags, setTags] = useState([])
+  const [dropTags, setDropTags] = useState([])
   const [selectedTags, setSelectedTags] = useState([])
   const [shouldMatchAll, setShouldMatchAll] = useState(false)
   const [dataLoaded, setDataLoaded] = useState(false)
@@ -21,21 +21,23 @@ function App() {
       (snapshot) => {
         if (snapshot.exists()) {
           const data = snapshot.val()
+          const {topics, drop_tags} = data
           // Flattening all docs to get a nice table list view
           let allDocs = []
-          for (const topic in data) {
-            allDocs = allDocs.concat(data[topic])
+          for (const topic in topics) {
+            allDocs = allDocs.concat(topics[topic])
           }
 
           // Create a unique array of tags to display for filtering
           setTags(
             Array.from(
-              new Set(allDocs.reduce((prev, d) => prev.concat(d.tags).filter((t) => !dropTags.includes(t)), []))
+              new Set(allDocs.reduce((prev, d) => prev.concat(d.tags).filter((t) => !Object.values(drop_tags).includes(t)), []))
             ).sort()
           )
 
           setData(allDocs)
           setDataLoaded(true)
+          setDropTags(drop_tags)
         } else {
           setLoadingError("No Data Available")
         }
@@ -183,7 +185,7 @@ function App() {
                             {item.url}
                           </a>
                         </td>
-                        <td>{Object.values(item.tags).join(", ")}</td>
+                        <td>{Object.values(item.tags).filter((t) => !Object.values(dropTags).includes(t)).join(", ")}</td>
                       </tr>
                     )
                   })}

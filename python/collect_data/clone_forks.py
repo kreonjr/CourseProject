@@ -37,6 +37,8 @@ import pandas as pd
 from datetime import datetime
 from datetime import date
 import git
+import time
+import threading
 
 def find_forks(forks_url):
     """
@@ -129,12 +131,35 @@ def shallow_clone_forks(forks_df, destination, min_months_old):
                     print("Error cloning ", fork["ssh_url"])
                     continue
             
-
-
 def main():
-    
+
+    done = False
+    def animate():
+        bar = [
+            " [=     ]",
+            " [ =    ]",
+            " [  =   ]",
+            " [   =  ]",
+            " [    = ]",
+            " [     =]",
+            " [    = ]",
+            " [   =  ]",
+            " [  =   ]",
+            " [ =    ]",
+        ]
+        i = 0
+
+        while not done:
+            print("Downloading Project Forks", bar[i % len(bar)], end="\r")
+            time.sleep(.2)
+            i += 1
+
+    t = threading.Thread(target=animate)
+    t.start()
+
     # Get folder this script is running from
-    script_dir = os.path.dirname(__file__).replace("\\", "/")
+    script_dir = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
+
     
     # Get any provided arguments. Use defaults for any not provided
     parser = argparse.ArgumentParser()
@@ -158,6 +183,8 @@ def main():
     # If desired, clone forks of at least minimum age
     if (args.doclone == "yes"):
         shallow_clone_forks(forks_df, args.forksdest, args.minmonthsold)
+
+    done = True
 
 
 if __name__ == "__main__":

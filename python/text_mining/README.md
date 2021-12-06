@@ -6,7 +6,7 @@ The scripts present here perform data cleaning on the web scraped data made avai
 
 ## Requirements
 
-The scripts were tested and run in an Anaconda Python 3.8.8 virtual environment.
+The scripts were tested and run on macOS Big Sur and in an Anaconda Python 3.8.8 virtual environment.
 
 Python packages used:
 * pandas 1.2.4

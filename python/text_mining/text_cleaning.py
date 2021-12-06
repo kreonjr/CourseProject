@@ -1,15 +1,42 @@
 import os
 import re
 import pandas as pd
+pd.options.mode.chained_assignment = None  # default='warn'
 from nltk.corpus import stopwords
 import nltk
 nltk.download('stopwords')
 nltk.download('wordnet')
 from nltk.tokenize import wordpunct_tokenize
 from nltk.stem import WordNetLemmatizer
+import threading
+import time
+
+done = False
+def animate():
+    bar = [
+        " [=     ]",
+        " [ =    ]",
+        " [  =   ]",
+        " [   =  ]",
+        " [    = ]",
+        " [     =]",
+        " [    = ]",
+        " [   =  ]",
+        " [  =   ]",
+        " [ =    ]",
+    ]
+    i = 0
+
+    while not done:
+        print("Cleaning Text Data", bar[i % len(bar)], end="\r")
+        time.sleep(.2)
+        i += 1
+
+t = threading.Thread(target=animate)
+t.start()
 
 # Set current working directory to the folder the script is in
-script_dir = os.path.dirname(__file__).replace("\\", "/")
+script_dir = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
 os.chdir(script_dir)
 
 #pulling in list of high usage words
@@ -57,3 +84,5 @@ Newdf.rename(columns={'clean_text5': 'clean_text'},inplace=True)
 Newdf.set_index('project_url',inplace=True)
 
 Newdf.to_csv('project_clean_text.tsv', sep='\t')
+
+done = True

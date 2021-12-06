@@ -30,7 +30,8 @@ import docx2txt
 from pptx import Presentation
 from bs4 import BeautifulSoup
 from markdown import markdown
-
+import time
+import threading
 
 # Arguments:
     # projectlist: CSV list of projects.
@@ -62,8 +63,8 @@ def get_pdf_text(filepath):
         pdf_doc = fitz.open(filepath)
 
     # Handle incorrectly-formatted PDFs
-    except Exception:
-        print("Error opening PDF file", filepath)
+    except Exception as e:
+        print("Error opening PDF file", filepath, e)
 
     # Pull text from readable PDFs
     else:
@@ -87,8 +88,8 @@ def get_docx_text(filepath):
 
     try:
         filetext = docx2txt.process(filepath)
-    except Exception:
-        print("Error processing Word document", filepath)
+    except Exception as e:
+        print("Error processing Word document", filepath, e)
     
     return filetext
     
@@ -199,9 +200,32 @@ def process_project_list(project_df, project_root):
 
 
 def main():
-    
+    done = False
+    def animate():
+        bar = [
+            " [=     ]",
+            " [ =    ]",
+            " [  =   ]",
+            " [   =  ]",
+            " [    = ]",
+            " [     =]",
+            " [    = ]",
+            " [   =  ]",
+            " [  =   ]",
+            " [ =    ]",
+        ]
+        i = 0
+
+        while not done:
+            print("Extracting text data", bar[i % len(bar)], end="\r")
+            time.sleep(.2)
+            i += 1
+
+    t = threading.Thread(target=animate)
+    t.start()
+
     # Get folder this script is running from
-    script_dir = os.path.dirname(__file__).replace("\\", "/")
+    script_dir = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
     
     # Get arguments
     parser = argparse.ArgumentParser()
@@ -225,6 +249,8 @@ def main():
     # Concatenate text of each project's files and produce one row per project
     project_text_series = project_file_df.groupby("project_url")["file_text"].agg(" ".join)
     project_text_series.to_csv(os.path.join(args.outputdir, "project_text.tsv"), sep="\t", index=True)
+
+    done = True
     
 
 if __name__ == "__main__":

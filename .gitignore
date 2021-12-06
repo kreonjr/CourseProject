@@ -7,3 +7,4 @@
 **/.env
 /topic-files/Manual_Topic_Evaluation_Round_2.xlsx
 /python/text_mining/model_eval/saved_model
+/python/collect_data/repo_forks
