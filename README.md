@@ -7,12 +7,12 @@
 
 <br>
 
-This is a README that helps users get a sense of the project structure, instructions on to how to run the code and its end result. For more details on the Techniques, Tools and Data used, please reffer to the **Final Project Report** pdf in this Repo.
+This is a README that helps users get a sense of the project structure, provides instructions on to how to run the code, and describes its end result. For more details on the Techniques, Tools and Data used, please refer to the **Final Project Report** pdf in this Repo.
 
 ---
 
 ## Project Goal
-We built this tool to help anyone that wants to skim through previous project submissions but don't want to have to click into every project to get a sense of the topic it might be focused on. This was acomplished by aggregating all github submissions, running some text mining and cleaning, using Gensim to mine topic models and finally use those models as **Tags** to categorize projects and display them on a website.
+We built this tool to help anyone that wants to skim through previous project submissions but doesn't want to have to click into every project to get a sense of the topic it might be focused on. This was accomplished by aggregating all github submissions, running some text preprocessing and cleaning, using Gensim to mine topics. Finally, we display the top topic terms as **Tags** to categorize projects and display them on a website.
 
 ---
 
@@ -25,7 +25,7 @@ The project is split into 4 main folders.
 
 ### python
 This folder contains all the python code related to data collection, data cleaning, topic modeling and database updating.
-Each folder contains a README with instruction on how to run the code inside it, but here is the summary of set of insctuctions you have to run a fresh data collection and update of the Web App:
+Each folder contains a README with instructions on how to run the code inside it, but here is what to run to collect fresh data and update the Web App:
 
 ```
 > cd python/collect_data
@@ -47,7 +47,7 @@ Each folder contains a README with instruction on how to run the code inside it,
 
 ### topic-files
 
-This folder contains our evaluation files. Since the results of our project are user facing at the end, we had to find a way to do some manual evaluation. This is done by setting a ground truth sample, picking some prjects and manually categorizing them under specific topics. Then when our output is generated, we manually went through the sample topics and rated the relevance of the algorithm compared to the ground truth file.
+This folder contains our evaluation files. Since the results of our project are user facing at the end, we had to find a way to do some manual evaluation. This is done by setting a ground truth sample, picking some projects and manually categorizing them under specific topics. Then when our output is generated, we manually went through the sample topics and rated the relevance of the algorithm compared to the ground truth file.
 
 ### web
 
