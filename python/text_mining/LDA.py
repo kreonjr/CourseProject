@@ -9,14 +9,41 @@
 import os
 from nltk.tokenize import wordpunct_tokenize
 import pandas as pd
+pd.options.mode.chained_assignment = None  # default='warn'
 import json
 import gensim
 import gensim.corpora as corpora
 from gensim.models import Phrases
 from gensim.models.phrases import Phraser
+import threading
+import time
+
+done = False
+def animate():
+    bar = [
+        " [=     ]",
+        " [ =    ]",
+        " [  =   ]",
+        " [   =  ]",
+        " [    = ]",
+        " [     =]",
+        " [    = ]",
+        " [   =  ]",
+        " [  =   ]",
+        " [ =    ]",
+    ]
+    i = 0
+
+    while not done:
+        print("Generating Topics", bar[i % len(bar)], end="\r")
+        time.sleep(.2)
+        i += 1
+
+t = threading.Thread(target=animate)
+t.start()
 
 # Set current working directory to the folder the script is in
-script_dir = os.path.dirname(__file__).replace("\\", "/")
+script_dir = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
 os.chdir(script_dir)
 
 # Convert file from a string as we are reading from .tsv
@@ -110,3 +137,4 @@ fileout=open('firebase-output.json','w')
 json.dump(topic_dict,fileout)
 fileout.close()
 
+done = True

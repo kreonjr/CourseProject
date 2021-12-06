@@ -10,7 +10,7 @@ To harvest the text, first run `clone_forks.py` as below to clone forks of the b
 
 Git must be installed for `clone_forks.py` to work. This project used git version 2.17.1.windows.2.
 
-The scripts were tested and run in an Anaconda Python 3.8.8 virtual environment.
+The scripts were tested and run on macOS Big Sur and in an Anaconda Python 3.8.8 virtual environment.
 
 Python packages used:
 * beautifulsoup4 4.10.0
@@ -73,3 +73,7 @@ Call `get_project_text.py` with no arguments to use default settings.
 ```
 python ./get_project_text.py --projectlist "./repo_forks.csv" --projectroot "./repo_forks" --outputdir "."
 ```
+
+### Troubleshooting
+
+If there are any errors are encountered related to the `pymupdf` module, please try uninstalling and re-installing the module using pip (or any other module manager you might be using).

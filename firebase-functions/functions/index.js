@@ -19,8 +19,10 @@ exports.updateDatabase = functions.https.onRequest((request, response) => {
     if (!request.body || Object.keys(request.body).length == 0) {
       response.status(400).send("Database data missing or empty")
     } else {
-      const newData = request.body
-      db.ref().set(newData).then(() => {
+      const {topics, dropTags} = request.body
+      db.ref("topics").set(topics).then(() => {
+        return db.ref("drop_tags").set(dropTags)
+      }).then(() => {
         response.status(200).send("Database updated");
       }).catch((error) => {
         response.send(error)

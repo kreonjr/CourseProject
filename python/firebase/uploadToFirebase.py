@@ -16,9 +16,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 url = "https://us-central1-topic-thunder-a7103.cloudfunctions.net/updateDatabase"
+script_dir = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
 
-f = open('../text_mining/firebase-output.json',)
-data = json.load(f)
+topics = open(script_dir + '/../text_mining/firebase-output.json')
+topicData = json.load(topics)
+dropTags = open(script_dir + '/../text_mining/drop_tags.json')
+dropTagData = json.load(dropTags)
+
+data = {"topics": topicData, "dropTags": dropTagData}
 payload = json.dumps(data)
 
 headers = {
