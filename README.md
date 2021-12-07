@@ -25,7 +25,12 @@ The project is split into 4 main folders.
 
 ### python
 This folder contains all the python code related to data collection, data cleaning, topic modeling and database updating.
-Each folder contains a README with instructions on how to run the code inside it, but here is what to run to collect fresh data and update the Web App:
+Each folder contains a README with instructions on how to run the code inside it.
+We are using python version 3.8 and there are several dependencies needed to run each part of the script but here is a helpful script to isntall everything needed at once: 
+
+`pip install beautifulsoup4 datetime docx2txt pymupdf GitPython markdown pandas python-pptx unidecode regex nltk gensim pyLDAvis matplotlib requests python-dotenv`
+
+and to collect fresh data and update the Web App there are 5 main scripts to be ran:
 
 ```
 > cd python/collect_data
