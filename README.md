@@ -1,9 +1,10 @@
 # CS410 Course Project Readme
 
 ## Team: ***Topic Thunder***
-## Project: UIUC CS410 Final Projects Filtering Web App
+## Project: <u>UIUC CS410 Final Projects Filtering Web App</u>
 
-## Web App Url: https://topic-thunder-a7103.web.app/
+### Web App Url: https://topic-thunder-a7103.web.app/
+### Presentation Video Url: https://youtu.be/4WafNvbWhRo
 
 <br>
 
@@ -28,7 +29,9 @@ This folder contains all the python code related to data collection, data cleani
 Each folder contains a README with instructions on how to run the code inside it.
 We are using python version 3.8 and there are several dependencies needed to run each part of the script but here is a helpful script to isntall everything needed at once: 
 
-`pip install beautifulsoup4 datetime docx2txt pymupdf GitPython markdown pandas python-pptx unidecode regex nltk gensim pyLDAvis matplotlib requests python-dotenv`
+```
+> pip install beautifulsoup4 datetime docx2txt pymupdf GitPython markdown pandas python-pptx unidecode regex nltk gensim pyLDAvis matplotlib requests python-dotenv
+```
 
 and to collect fresh data and update the Web App there are 5 main scripts to be ran:
 
