@@ -102,13 +102,18 @@ def get_pptx_text(filepath):
     
     filetext = ""
     
-    ppt = Presentation(filepath)
+    try:
+        ppt = Presentation(filepath)
+    
+        # Loop through shapes in slides and collect any text.
+        for slide in ppt.slides:
+            for shape in slide.shapes:
+                if hasattr(shape, "text"):
+                    filetext = filetext + " " + shape.text
 
-    # Loop through shapes in slides and collect any text.
-    for slide in ppt.slides:
-        for shape in slide.shapes:
-            if hasattr(shape, "text"):
-                filetext = filetext + " " + shape.text
+    except Exception as e:
+        print("Error processing Powerpoint file", filepath, e)
+                
 
     return filetext
 
@@ -118,12 +123,18 @@ def get_md_text(filepath):
     of the given markdown file (or any text file).
     """
     
-    fd = open(filepath, "r", encoding="utf-8", errors="ignore")
-    md_text = fd.read()
-    fd.close()
+    filetext = ""
     
-    md_html = markdown(md_text)
-    filetext = "".join(BeautifulSoup(md_html, "html.parser").findAll(text=True))
+    try:
+        fd = open(filepath, "r", encoding="utf-8", errors="ignore")
+        md_text = fd.read()
+        fd.close()
+        
+        md_html = markdown(md_text)
+        filetext = "".join(BeautifulSoup(md_html, "html.parser").findAll(text=True))
+        
+    except Exception as e:
+        print("Error processing markdown file", filepath, e)
     
     return filetext
         
@@ -160,9 +171,9 @@ def process_project_files(project_url, project_folder):
             filetext = ""
             if (filename.endswith(".pdf")):
                 filetext = get_pdf_text(filepath)
-            elif (filename.endswith(".docx")):
+            elif (filename.endswith(".docx") and not filename.startswith("~$")):
                 filetext = get_docx_text(filepath)
-            elif (filename.endswith(".pptx")):
+            elif (filename.endswith(".pptx") and not filename.startswith("~$")):
                 filetext = get_pptx_text(filepath)
             elif (filename.endswith(".md")):
                 filetext = get_md_text(filepath)
