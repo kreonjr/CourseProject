@@ -127,8 +127,8 @@ def shallow_clone_forks(forks_df, destination, min_months_old):
                 try:
                     os.makedirs(fork_destination)
                     git.Repo.clone_from(fork["ssh_url"], fork_destination, branch=fork["default_branch"], depth=1)
-                except Exception:
-                    print("Error cloning ", fork["ssh_url"])
+                except Exception as e:
+                    print("Error cloning ", fork["ssh_url"], e)
                     continue
             
 def main():
